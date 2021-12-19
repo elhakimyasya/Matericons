@@ -1,5 +1,6 @@
-/dist
-/icons
+dist/*
+icons
+!matericons.min.js
 
 # Logs
 logs
