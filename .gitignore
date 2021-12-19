@@ -1,6 +1,6 @@
 
-icons/
-
+icons
+!dist/icons
 # Logs
 logs
 *.log
