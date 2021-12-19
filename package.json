@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "process": "npx babel-node bin/icon-process.js",
+    "process": "npx babel-node bin/icon-process.js && npx rimraf dist && mkdir dist",
     "lint": "eslint"
   },
   "keywords": [],
@@ -28,8 +28,6 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
     "cheerio": "^1.0.0-rc.10",
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",
     "svgo": "^0.7.2",
