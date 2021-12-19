@@ -2,13 +2,21 @@
   "name": "matericons",
   "version": "1.0.0",
   "description": "Open Source Icon Collection",
-  "main": "index.js",
+  "main": "dist/matericons.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "process": "npx babel-node bin/icon-process.js"
   },
   "keywords": [],
   "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
   "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.2.3",
