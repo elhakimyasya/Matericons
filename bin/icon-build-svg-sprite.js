@@ -3,7 +3,7 @@ import path from 'path';
 import icons from '../dist/icons.json';
 import iconBuildSVGSpriteString from './icon-build-svg-sprite-string';
 
-const outputFile = path.resolve(__dirname, '../dist/matericons-svg-sprite.svg');
+const outputFile = path.resolve(__dirname, '../dist/matericons-svg-sprites.svg');
 
 console.log(`Processing SVG Sprites file in ${outputFile}...`);
 
