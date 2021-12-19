@@ -1,5 +1,4 @@
 dist/*
-icons
 !matericons.min.js
 
 # Logs
