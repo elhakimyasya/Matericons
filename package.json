@@ -12,6 +12,10 @@
   "keywords": [],
   "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elhakimyasya/Matericons.git"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -24,6 +28,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "cheerio": "^1.0.0-rc.10",
     "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.5.0",
     "prettier": "^2.5.1",
     "svgo": "^2.8.0",
     "webpack": "^5.65.0",
