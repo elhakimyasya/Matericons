@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Open Source Icon Collection",
   "main": "dist/matericons.js",
+  "keywords": [],
+  "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elhakimyasya/Matericons.git"
+  },
   "files": [
     "dist"
   ],
@@ -13,18 +20,6 @@
     "dev": "npx webpack --output-filename matericons.js --mode development",
     "pro": "npx webpack --output-filename matericons.min.js --mode production",
     "lint": "eslint"
-  },
-  "keywords": [],
-  "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/elhakimyasya/Matericons.git"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
