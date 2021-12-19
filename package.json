@@ -7,6 +7,7 @@
     "dist"
   ],
   "scripts": {
+    "all": "npm-run-all --sequential process icons dev pro ",
     "process": "npx babel-node bin/icon-process.js && npx rimraf dist && mkdir dist && npx babel-node bin/icon-build-json.js && npx babel-node bin/icon-build-svg-sprite.js",
     "icons": "npx rimraf dist\\icons && mkdir dist\\icons && npx babel-node bin/icon-build.js",
     "dev": "npx webpack --output-filename matericons.js --mode development",
