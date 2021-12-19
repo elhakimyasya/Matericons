@@ -1,5 +1,6 @@
 dist/*
 !matericons.min.js
+!matericons-svg-sprites.svg
 
 # Logs
 logs
