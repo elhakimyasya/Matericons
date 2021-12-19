@@ -1,0 +1,17 @@
+{
+  "name": "matericons",
+  "version": "1.0.0",
+  "description": "Open Source Icon Collection",
+  "main": "index.js",
+  "scripts": {
+    "process": "npx babel-node bin/icon-process.js"
+  },
+  "keywords": [],
+  "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "prettier": "^2.5.1",
+    "svgo": "^2.8.0"
+  }
+}
