@@ -7,7 +7,10 @@
     "dist"
   ],
   "scripts": {
-    "process": "npx babel-node bin/icon-process.js && npx rimraf dist && mkdir dist",
+    "process": "npx babel-node bin/icon-process.js && npx rimraf dist && mkdir dist && npx babel-node bin/icon-build-json.js && npx babel-node bin/icon-build-svg-sprite.js",
+    "icons": "npx rimraf dist\\icons && mkdir dist\\icons && npx babel-node bin/icon-build.js",
+    "dev": "npx webpack --output-filename matericons.js --mode development",
+    "pro": "npx webpack --output-filename matericons.min.js --mode production",
     "lint": "eslint"
   },
   "keywords": [],
@@ -29,6 +32,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "cheerio": "^1.0.0-rc.10",
     "eslint": "^8.5.0",
+    "html-minifier": "^4.0.0",
     "prettier": "^2.5.1",
     "svgo": "^0.7.2",
     "webpack": "^5.65.0",
