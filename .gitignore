@@ -1,6 +1,5 @@
-dist/*
-!matericons.min.js
-!matericons-svg-sprites.svg
+
+../icons
 
 # Logs
 logs
