@@ -7,7 +7,8 @@
     "dist"
   ],
   "scripts": {
-    "process": "npx babel-node bin/icon-process.js"
+    "process": "npx babel-node bin/icon-process.js",
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
@@ -31,7 +32,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",
-    "svgo": "^2.8.0",
+    "svgo": "^0.7.2",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   },
