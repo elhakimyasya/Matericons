@@ -109,7 +109,7 @@ function iconToSVG(name) {
     }
 
     if (!_icons2.default[name]) {
-        throw new Error('No icon matching \'' + name + '\'. See the complete list of icons at https://feathericons.com');
+        throw new Error('No icon matching \'' + name + '\'.');
     }
 
     return _icons2.default[name].iconToSVG(attrs);
