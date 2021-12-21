@@ -1,88 +1,104 @@
 {
     "whatsapp": [
-        "material design",
+        "material_design",
         "social",
-        "wa"
+        "wa",
+        "logo"
     ],
     "telegram": [
-        "material design",
-        "social"
+        "material_design",
+        "social",
+        "logo"
     ],
     "evernote": [
-        "material design",
-        "social"
+        "material_design",
+        "social",
+        "logo"
     ],
     "linkedin": [
-        "material design",
-        "social"
+        "material_design",
+        "social",
+        "logo"
+    ],
+    "google": [
+        "material_design",
+        "logo"
+    ],
+    "samsung": [
+        "logo"
+    ],
+    "google-adsense": [
+        "material_design",
+        "logo"
     ],
     "trending-up": [
-        "material design",
+        "material_design",
         "trend"
     ],
     "twitter": [
-        "material design",
-        "social"
+        "material_design",
+        "social",
+        "logo"
     ],
     "pound": [
-        "material design",
+        "material_design",
         "hash",
         "hashtag",
         "tag"
     ],
     "menu": [
-        "material design",
+        "material_design",
         "hamburger"
     ],
     "magnify": [
-        "material design",
+        "material_design",
         "search"
     ],
     "email-send-outline": [
-        "material design",
+        "material_design",
         "mail",
         "envelope"
     ],
     "email-send": [
-        "material design",
+        "material_design",
         "mail",
         "envelope"
     ],
     "text-box": [
-        "material design",
+        "material_design",
         "docs",
         "document"
     ],
     "text-box-outline": [
-        "material design",
+        "material_design",
         "docs",
         "document"
     ],
     "check-decagram": [
-        "material design",
+        "material_design",
         "verified"
     ],
     "check-decagram-outline": [
-        "material design",
+        "material_design",
         "verified"
     ],
     "chevron-down": [
-        "material design",
+        "material_design",
         "arrow"
     ],
     "close": [
-        "material design",
+        "material_design",
         "cancel",
         "clear",
         "delete"
     ],
     "brightness-4": [
-        "material design",
+        "material_design",
         "dark",
         "moon"
     ],
     "brightness-7": [
-        "material design",
+        "material_design",
         "light",
         "sun"
     ]
