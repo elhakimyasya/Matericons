@@ -7,5 +7,13 @@
     "telegram": [
         "material design",
         "social"
+    ],
+    "trending-up": [
+        "material design",
+        "trend"
+    ],
+    "twitter": [
+        "material design",
+        "social"
     ]
 }
