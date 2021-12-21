@@ -8,6 +8,14 @@
         "material design",
         "social"
     ],
+    "evernote": [
+        "material design",
+        "social"
+    ],
+    "linkedin": [
+        "material design",
+        "social"
+    ],
     "trending-up": [
         "material design",
         "trend"
@@ -15,5 +23,67 @@
     "twitter": [
         "material design",
         "social"
+    ],
+    "pound": [
+        "material design",
+        "hash",
+        "hashtag",
+        "tag"
+    ],
+    "menu": [
+        "material design",
+        "hamburger"
+    ],
+    "magnify": [
+        "material design",
+        "search"
+    ],
+    "email-send-outline": [
+        "material design",
+        "mail",
+        "envelope"
+    ],
+    "email-send": [
+        "material design",
+        "mail",
+        "envelope"
+    ],
+    "text-box": [
+        "material design",
+        "docs",
+        "document"
+    ],
+    "text-box-outline": [
+        "material design",
+        "docs",
+        "document"
+    ],
+    "check-decagram": [
+        "material design",
+        "verified"
+    ],
+    "check-decagram-outline": [
+        "material design",
+        "verified"
+    ],
+    "chevron-down": [
+        "material design",
+        "arrow"
+    ],
+    "close": [
+        "material design",
+        "cancel",
+        "clear",
+        "delete"
+    ],
+    "brightness-4": [
+        "material design",
+        "dark",
+        "moon"
+    ],
+    "brightness-7": [
+        "material design",
+        "light",
+        "sun"
     ]
 }
