@@ -5,9 +5,13 @@ Matericons is a collection of Open Source SVG Icons. Each icon has been optimize
 
 ## Contributing
 
-For more info on how to contribute, please see the Contribution Guidelines.
+First of all, thank you for taking your time to contribute!
 
-If you find an error or want to contribute to the documentation? Edit this page on Github. 
+The following are guidelines for contributing to Matericons. Feel free to propose changes to this document in a pull request.
+
+### Icon Request
+
+Before making a new icon request, make sure that you have seen if someone has requested the icon. If there is an open request, please add it. If the icon has not been requested, [create an issue](https://github.com/elhakimyasya/Matericons/issues/new?title=Icon%20Request:%20) with the title `Icon Request: Icon Name` and add as much information as possible.
 
 ## License
 Matericons is licensed under the [MIT License](https://github.com/elhakimyasya/Matericons/blob/main/LICENSE).
