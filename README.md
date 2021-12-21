@@ -3,6 +3,8 @@
 
 Matericons is a collection of Open Source SVG Icons. Each icon has been optimized and designed following the design guidelines.
 
+See the complete list of icons at [Materia X2](https://materiax.elcreativeacademy.com/p/icon-sets.html).
+
 ## Contributing
 
 First of all, thank you for taking your time to contribute!
