@@ -1,4 +1,164 @@
 {
+    "archive-1": [
+        "bootstrap_icons",
+        "materia",
+        "icon_archive"
+    ],
+    "arrow-counterclockwise": [
+        "bootstrap_icons",
+        "materia",
+        "icon_reload"
+    ],
+    "arrow-left-1": [
+        "bootstrap_icons",
+        "materia",
+        "icon_arrow_left"
+    ],
+    "arrow-right-1": [
+        "bootstrap_icons",
+        "materia",
+        "icon_arrow_right"
+    ],
+    "arrow-up-1": [
+        "bootstrap_icons",
+        "materia",
+        "icon_arrow_up"
+    ],
+    "brightness-high": [
+        "bootstrap_icons",
+        "materia",
+        "icon_light"
+    ],
+    "chat-square": [
+        "bootstrap_icons",
+        "materia",
+        "icon_comment"
+    ],
+    "chat-square-text": [
+        "bootstrap_icons",
+        "materia",
+        "icon_comment_text"
+    ],
+    "envelope-plus": [
+        "bootstrap_icons",
+        "materia",
+        "icon_email_send"
+    ],
+    "eye-slash": [
+        "bootstrap_icons",
+        "materia",
+        "icon_eye_off"
+    ],
+    "facebook": [
+        "bootstrap_icons",
+        "materia",
+        "icon_facebook"
+    ],
+    "file-text": [
+        "bootstrap_icons",
+        "materia",
+        "icon_document"
+    ],
+    "grid-3x3-gap": [
+        "bootstrap_icons",
+        "materia",
+        "icon_dots_grid"
+    ],
+    "house-door": [
+        "bootstrap_icons",
+        "materia",
+        "icon_home"
+    ],
+    "linkedin-1": [
+        "bootstrap_icons",
+        "materia",
+        "icon_linkedin"
+    ],
+    "link-45deg": [
+        "bootstrap_icons",
+        "materia",
+        "icon_link"
+    ],
+    "list": [
+        "bootstrap_icons",
+        "materia",
+        "icon_menu"
+    ],
+    "moon-stars": [
+        "bootstrap_icons",
+        "materia",
+        "icon_dark"
+    ],
+    "patch-check": [
+        "bootstrap_icons",
+        "materia",
+        "decagram",
+        "icon_verified"
+    ],
+    "pinterest": [
+        "bootstrap_icons",
+        "materia",
+        "icon_pinterest"
+    ],
+    "search": [
+        "bootstrap_icons",
+        "materia",
+        "icon_magnify"
+    ],
+    "sort-numeric-down-alt": [
+        "bootstrap_icons",
+        "materia",
+        "icon_sort_ascending"
+    ],
+    "sort-numeric-down-up": [
+        "bootstrap_icons",
+        "materia",
+        "icon_sort_descending"
+    ],
+    "star-1": [
+        "bootstrap_icons",
+        "materia",
+        "icon_star"
+    ],
+    "hash": [
+        "bootstrap_icons",
+        "materia",
+        "icon_pound"
+    ],
+    "graph-up-arrow": [
+        "bootstrap_icons",
+        "materia",
+        "icon_trend"
+    ],
+    "x": [
+        "bootstrap_icons",
+        "materia",
+        "icon_close"
+    ],
+    "share": [
+        "bootstrap_icons",
+        "materia",
+        "icon_share"
+    ],
+    "list-ol": [
+        "bootstrap_icons",
+        "materia",
+        "icon_list_numbered"
+    ],
+    "chevron-down-1": [
+        "bootstrap_icons",
+        "materia"
+    ],
+    "newspaper": [
+        "bootstrap_icons",
+        "materia"
+    ],
+
+
+
+
+
+
     "whatsapp": [
         "material_design",
         "social",
