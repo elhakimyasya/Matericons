@@ -1,265 +1,107 @@
 {
-    "archive-1": [
-        "bootstrap_icons",
-        "materia",
-        "icon_archive"
+    "archive": [
+        "material_design icon_archive"
     ],
-    "arrow-counterclockwise": [
-        "bootstrap_icons",
-        "materia",
-        "icon_reload"
+    "archive-outline": [
+        "material_design icon_archive"
     ],
-    "arrow-left-1": [
-        "bootstrap_icons",
-        "materia",
-        "icon_arrow_left"
+    "arrow-left": [
+        "material_design icon_arrow_left"
     ],
-    "arrow-right-1": [
-        "bootstrap_icons",
-        "materia",
-        "icon_arrow_right"
+    "arrow-left-thin": [
+        "material_design icon_arrow_left"
     ],
-    "arrow-up-1": [
-        "bootstrap_icons",
-        "materia",
-        "icon_arrow_up"
+    "arrow-left-thick": [
+        "material_design icon_arrow_left"
     ],
-    "brightness-high": [
-        "bootstrap_icons",
-        "materia",
-        "icon_light"
+    "arrow-left-bold": [
+        "material_design icon_arrow_left"
     ],
-    "chat-square": [
-        "bootstrap_icons",
-        "materia",
-        "icon_comment"
+    "arrow-left-bold-outline": [
+        "material_design icon_arrow_left"
     ],
-    "chat-square-text": [
-        "bootstrap_icons",
-        "materia",
-        "icon_comment_text"
+    "arrow-right": [
+        "material_design icon_arrow_right"
     ],
-    "envelope-plus": [
-        "bootstrap_icons",
-        "materia",
-        "icon_email_send"
+    "arrow-right-thin": [
+        "material_design icon_arrow_right"
     ],
-    "eye-slash": [
-        "bootstrap_icons",
-        "materia",
-        "icon_eye_off"
+    "arrow-right-thick": [
+        "material_design icon_arrow_right"
     ],
-    "facebook": [
-        "bootstrap_icons",
-        "materia",
-        "icon_facebook"
+    "arrow-right-bold": [
+        "material_design icon_arrow_right"
     ],
-    "file-text": [
-        "bootstrap_icons",
-        "materia",
-        "icon_document"
+    "arrow-right-bold-outline": [
+        "material_design icon_arrow_right"
     ],
-    "grid-3x3-gap": [
-        "bootstrap_icons",
-        "materia",
-        "icon_dots_grid"
+    "arrow-up": [
+        "material_design icon_arrow_up"
     ],
-    "house-door": [
-        "bootstrap_icons",
-        "materia",
-        "icon_home"
+    "arrow-up-thin": [
+        "material_design icon_arrow_up"
     ],
-    "linkedin-1": [
-        "bootstrap_icons",
-        "materia",
-        "icon_linkedin"
+    "arrow-up-thick": [
+        "material_design icon_arrow_up"
     ],
-    "link-45deg": [
-        "bootstrap_icons",
-        "materia",
-        "icon_link"
+    "arrow-up-bold": [
+        "material_design icon_arrow_up"
     ],
-    "list": [
-        "bootstrap_icons",
-        "materia",
-        "icon_menu"
+    "arrow-up-bold-outline": [
+        "material_design icon_arrow_up"
     ],
-    "moon-stars": [
-        "bootstrap_icons",
-        "materia",
-        "icon_dark"
+    "blogger": [
+        "material_design icon_blogger"
     ],
-    "patch-check": [
-        "bootstrap_icons",
-        "materia",
-        "decagram",
-        "icon_verified"
+    "chat": [
+        "material_design icon_comment"
     ],
-    "pinterest": [
-        "bootstrap_icons",
-        "materia",
-        "icon_pinterest"
+    "chat-outline": [
+        "material_design icon_comment"
     ],
-    "search": [
-        "bootstrap_icons",
-        "materia",
-        "icon_magnify"
+    "check": [
+        "material_design icon_check"
     ],
-    "sort-numeric-down-alt": [
-        "bootstrap_icons",
-        "materia",
-        "icon_sort_ascending"
+    "check-outline": [
+        "material_design icon_check"
     ],
-    "sort-numeric-down-up": [
-        "bootstrap_icons",
-        "materia",
-        "icon_sort_descending"
-    ],
-    "star-1": [
-        "bootstrap_icons",
-        "materia",
-        "icon_star"
-    ],
-    "hash": [
-        "bootstrap_icons",
-        "materia",
-        "icon_pound"
-    ],
-    "graph-up-arrow": [
-        "bootstrap_icons",
-        "materia",
-        "icon_trend"
-    ],
-    "x": [
-        "bootstrap_icons",
-        "materia",
-        "icon_close"
-    ],
-    "share": [
-        "bootstrap_icons",
-        "materia",
-        "icon_share"
-    ],
-    "list-ol": [
-        "bootstrap_icons",
-        "materia",
-        "icon_list_numbered"
-    ],
-    "chevron-down-1": [
-        "bootstrap_icons",
-        "materia"
-    ],
-    "newspaper": [
-        "bootstrap_icons",
-        "materia"
-    ],
-
-
-
-
-
-
-    "whatsapp": [
-        "material_design",
-        "social",
-        "wa",
-        "logo"
-    ],
-    "telegram": [
-        "material_design",
-        "social",
-        "logo"
-    ],
-    "evernote": [
-        "material_design",
-        "social",
-        "logo"
-    ],
-    "linkedin": [
-        "material_design",
-        "social",
-        "logo"
-    ],
-    "google": [
-        "material_design",
-        "logo"
-    ],
-    "samsung": [
-        "logo"
-    ],
-    "google-adsense": [
-        "material_design",
-        "logo"
-    ],
-    "trending-up": [
-        "material_design",
-        "trend"
-    ],
-    "twitter": [
-        "material_design",
-        "social",
-        "logo"
-    ],
-    "pound": [
-        "material_design",
-        "hash",
-        "hashtag",
-        "tag"
-    ],
-    "menu": [
-        "material_design",
-        "hamburger"
-    ],
-    "magnify": [
-        "material_design",
-        "search"
-    ],
-    "email-send-outline": [
-        "material_design",
-        "mail",
-        "envelope"
-    ],
-    "email-send": [
-        "material_design",
-        "mail",
-        "envelope"
-    ],
-    "text-box": [
-        "material_design",
-        "docs",
-        "document"
-    ],
-    "text-box-outline": [
-        "material_design",
-        "docs",
-        "document"
-    ],
-    "check-decagram": [
-        "material_design",
-        "verified"
-    ],
-    "check-decagram-outline": [
-        "material_design",
-        "verified"
+    "check-bold": [
+        "material_design icon_check"
     ],
     "chevron-down": [
-        "material_design",
-        "arrow"
+        "material_design icon_chevron_down"
     ],
     "close": [
-        "material_design",
-        "cancel",
-        "clear",
-        "delete"
+        "material_design icon_close"
     ],
-    "brightness-4": [
-        "material_design",
-        "dark",
-        "moon"
+    "close-thick": [
+        "material_design icon_close"
     ],
-    "brightness-7": [
-        "material_design",
-        "light",
-        "sun"
+    "close-outline": [
+        "material_design icon_close"
+    ],
+    "comment": [
+        "material_design icon_comment"
+    ],
+    "comment-outline": [
+        "material_design icon_comment"
+    ],
+    "message-outline": [
+        "material_design icon_comment"
+    ],
+    "message-reply-outline": [
+        "material_design icon_comment"
+    ],
+    "message-reply": [
+        "material_design icon_comment"
+    ],
+    "message": [
+        "material_design icon_comment"
+    ],
+
+
+
+    "window-close": [
+        "material_design icon_close"
     ]
 }

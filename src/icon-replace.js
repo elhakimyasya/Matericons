@@ -23,13 +23,12 @@ function replaceElement(element, attrs = {}) {
     delete elementAttrs['data-matericons'];
 
     const svgString = icons[name].iconToSVG({
-        ...attrs,
-        ...elementAttrs,
-        ...{ class: classnames(attrs.class, elementAttrs.class) },
+        ...attrs, ...elementAttrs, ...{
+            class: classnames(attrs.class, elementAttrs.class)
+        }
     });
     const svgDocument = new DOMParser().parseFromString(
-        svgString,
-        'image/svg+xml',
+        svgString, 'image/svg+xml',
     );
     const svgElement = svgDocument.querySelector('svg');
 
