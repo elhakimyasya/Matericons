@@ -18,7 +18,7 @@
         "material_design icon_dark"
     ],
     "brightness-7": [
-        "material_design icon_light"
+        "material_design icon_light sun"
     ],
     "check-decagram": [
         "material_design icon_verified"
@@ -27,22 +27,22 @@
         "material_design icon_check"
     ],
     "chevron_down": [
-        "material_design icon_check"
+        "material_design icon_check caret"
     ],
     "close": [
-        "material_design icon_close"
+        "material_design icon_close x"
     ],
     "comment-outline": [
-        "material_design icon_comment"
+        "material_design icon_comment chat"
     ],
     "comment-text-outline": [
-        "material_design icon_comment_text"
+        "material_design icon_comment_text chat"
     ],
     "content-copy": [
         "material_design icon_copy"
     ],
     "dots-grid": [
-        "material_design icon_dots_grid"
+        "material_design icon_dots_grid dots_nine"
     ],
     "dots-horizontal": [
         "material_design icon_more"
@@ -54,7 +54,7 @@
         "material_design icon_evernote social logo"
     ],
     "eye-off-outline": [
-        "material_design icon_eye_off"
+        "material_design icon_eye_off eye_slash"
     ],
     "file-document-outline": [
         "material_design icon_page"
@@ -66,7 +66,7 @@
         "material_design icon_list_numbered"
     ],
     "home-variant-outline": [
-        "material_design icon_home"
+        "material_design icon_home house"
     ],
     "link-variant": [
         "material_design icon_link"
@@ -87,7 +87,7 @@
         "material_design icon_pinterest social logo"
     ],
     "pound": [
-        "material_design icon_pound"
+        "material_design icon_pound hash"
     ],
     "reddit": [
         "material_design icon_reddit social logo"
@@ -111,7 +111,7 @@
         "material_design icon_telegram social logo"
     ],
     "text-box-outline": [
-        "material_design icon_document"
+        "material_design icon_document article"
     ],
     "trending-up": [
         "material_design icon_trending"
@@ -121,5 +121,97 @@
     ],
     "whatsapp": [
         "material_design icon_whatsapp social logo"
+    ],
+
+
+    "archive": [
+        "phosphor icon_archive"
+    ],
+    "arrow-left-1": [
+        "phosphor icon_arrow_left"
+    ],
+    "arrow-right-1": [
+        "phosphor icon_arrow_right"
+    ],
+    "arrow-up-1": [
+        "phosphor icon_arrow_up"
+    ],
+    "check-1": [
+        "phosphor icon_check"
+    ],
+    "caret-down": [
+        "phosphor icon_chevron_down"
+    ],
+    "x": [
+        "phosphor icon_close"
+    ],
+    "chat": [
+        "phosphor icon_comment"
+    ],
+    "chat-dots": [
+        "phosphor icon_comment_text"
+    ],
+    "copy": [
+        "phosphor icon_copy"
+    ],
+    "article": [
+        "phosphor icon_document"
+    ],
+    "dots-nine": [
+        "phosphor icon_dots_grid"
+    ],
+    "eye-slash": [
+        "phosphor icon_eye_off"
+    ],
+    "house": [
+        "phosphor icon_home"
+    ],
+    "sun": [
+        "phosphor icon_light"
+    ],
+    "link": [
+        "phosphor icon_link"
+    ],
+    "list-number": [
+        "phosphor icon_list_numbered"
+    ],
+    "magnifying-glass": [
+        "phosphor icon_search"
+    ],
+    "list": [
+        "phosphor icon_menu"
+    ],
+    "dots-three": [
+        "phosphor icon_more"
+    ],
+    "newspaper": [
+        "phosphor icon_newspaper"
+    ],
+    "file-text": [
+        "phosphor icon_page"
+    ],
+    "hash": [
+        "phosphor icon_pound"
+    ],
+    "arrow-clockwise": [
+        "phosphor icon_reload"
+    ],
+    "share-network": [
+        "phosphor icon_share"
+    ],
+    "sort-ascending-1": [
+        "phosphor icon_sort_ascending"
+    ],
+    "sort-descending-1": [
+        "phosphor icon_sort_descending"
+    ],
+    "star": [
+        "phosphor icon_star"
+    ],
+    "trend-up": [
+        "phosphor icon_trending"
+    ],
+    "cicle-wavy-check": [
+        "phosphor icon_verified"
     ]
 }
