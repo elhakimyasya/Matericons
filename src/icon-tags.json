@@ -211,7 +211,10 @@
     "trend-up": [
         "phosphor icon_trending"
     ],
-    "cicle-wavy-check": [
+    "circle-wavy-check": [
         "phosphor icon_verified"
+    ],
+    "moon": [
+        "phosphor icon_dark"
     ]
 }
