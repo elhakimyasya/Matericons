@@ -1,107 +1,125 @@
 {
-    "archive": [
-        "material_design icon_archive"
-    ],
     "archive-outline": [
         "material_design icon_archive"
     ],
     "arrow-left": [
         "material_design icon_arrow_left"
     ],
-    "arrow-left-thin": [
-        "material_design icon_arrow_left"
-    ],
-    "arrow-left-thick": [
-        "material_design icon_arrow_left"
-    ],
-    "arrow-left-bold": [
-        "material_design icon_arrow_left"
-    ],
-    "arrow-left-bold-outline": [
-        "material_design icon_arrow_left"
-    ],
     "arrow-right": [
-        "material_design icon_arrow_right"
-    ],
-    "arrow-right-thin": [
-        "material_design icon_arrow_right"
-    ],
-    "arrow-right-thick": [
-        "material_design icon_arrow_right"
-    ],
-    "arrow-right-bold": [
-        "material_design icon_arrow_right"
-    ],
-    "arrow-right-bold-outline": [
         "material_design icon_arrow_right"
     ],
     "arrow-up": [
         "material_design icon_arrow_up"
     ],
-    "arrow-up-thin": [
-        "material_design icon_arrow_up"
-    ],
-    "arrow-up-thick": [
-        "material_design icon_arrow_up"
-    ],
-    "arrow-up-bold": [
-        "material_design icon_arrow_up"
-    ],
-    "arrow-up-bold-outline": [
-        "material_design icon_arrow_up"
-    ],
     "blogger": [
-        "material_design icon_blogger"
+        "material_design icon_blogger social logo"
     ],
-    "chat": [
-        "material_design icon_comment"
+    "brightness-4": [
+        "material_design icon_dark"
     ],
-    "chat-outline": [
-        "material_design icon_comment"
+    "brightness-7": [
+        "material_design icon_light"
+    ],
+    "check-decagram": [
+        "material_design icon_verified"
     ],
     "check": [
         "material_design icon_check"
     ],
-    "check-outline": [
+    "chevron_down": [
         "material_design icon_check"
-    ],
-    "check-bold": [
-        "material_design icon_check"
-    ],
-    "chevron-down": [
-        "material_design icon_chevron_down"
     ],
     "close": [
         "material_design icon_close"
     ],
-    "close-thick": [
-        "material_design icon_close"
-    ],
-    "close-outline": [
-        "material_design icon_close"
-    ],
-    "comment": [
-        "material_design icon_comment"
-    ],
     "comment-outline": [
         "material_design icon_comment"
     ],
-    "message-outline": [
-        "material_design icon_comment"
+    "comment-text-outline": [
+        "material_design icon_comment_text"
     ],
-    "message-reply-outline": [
-        "material_design icon_comment"
+    "content-copy": [
+        "material_design icon_copy"
     ],
-    "message-reply": [
-        "material_design icon_comment"
+    "dots-grid": [
+        "material_design icon_dots_grid"
     ],
-    "message": [
-        "material_design icon_comment"
+    "dots-horizontal": [
+        "material_design icon_more"
     ],
-
-
-
-    "window-close": [
-        "material_design icon_close"
+    "email": [
+        "material_design icon_email_send"
+    ],
+    "evernote": [
+        "material_design icon_evernote social logo"
+    ],
+    "eye-off-outline": [
+        "material_design icon_eye_off"
+    ],
+    "file-document-outline": [
+        "material_design icon_page"
+    ],
+    "facebook": [
+        "material_design icon_facebook social logo"
+    ],
+    "format-list-numbered": [
+        "material_design icon_list_numbered"
+    ],
+    "home-variant-outline": [
+        "material_design icon_home"
+    ],
+    "link-variant": [
+        "material_design icon_link"
+    ],
+    "linkedin": [
+        "material_design icon_linkedin social logo"
+    ],
+    "magnify": [
+        "material_design icon_search"
+    ],
+    "menu": [
+        "material_design icon_menu"
+    ],
+    "newspaper-variant-outline": [
+        "material_design icon_newspaper"
+    ],
+    "pinterest": [
+        "material_design icon_pinterest social logo"
+    ],
+    "pound": [
+        "material_design icon_pound"
+    ],
+    "reddit": [
+        "material_design icon_reddit social logo"
+    ],
+    "reload": [
+        "material_design icon_reload"
+    ],
+    "share-variant-outline": [
+        "material_design icon_share"
+    ],
+    "sort-ascending": [
+        "material_design icon_sort_ascending"
+    ],
+    "sort-descending": [
+        "material_design icon_sort_descending"
+    ],
+    "star-outline": [
+        "material_design icon_star"
+    ],
+    "telegram": [
+        "material_design icon_telegram social logo"
+    ],
+    "text-box-outline": [
+        "material_design icon_document"
+    ],
+    "trending-up": [
+        "material_design icon_trending"
+    ],
+    "twitter": [
+        "material_design icon_twitter social logo"
+    ],
+    "whatsapp": [
+        "material_design icon_whatsapp social logo"
     ]
 }
