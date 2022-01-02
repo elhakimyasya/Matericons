@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "Open Source Icon Collection",
   "main": "dist/matericons.js",
-  "keywords": [],
   "author": "Yasya El Hakim <yasyaelhakim@gmail.com> (https://www.elcreativeacademy.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/elhakimyasya/Matericons.git"
   },
+  "keywords": [
+    "icon pack",
+    "ionic",
+    "icon",
+    "svg",
+    "mobile",
+    "web component",
+    "component",
+    "custom element",
+    "material design",
+    "ios"
+  ],
   "files": [
     "dist"
   ],
