@@ -93,7 +93,7 @@
         "material_design icon_reddit social logo"
     ],
     "reload": [
-        "material_design icon_reload"
+        "material_design icon_reload redo"
     ],
     "share-variant-outline": [
         "material_design icon_share"
@@ -194,7 +194,7 @@
         "phosphor icon_pound"
     ],
     "arrow-clockwise": [
-        "phosphor icon_reload"
+        "phosphor icon_reload redo"
     ],
     "share-network": [
         "phosphor icon_share"
@@ -216,5 +216,99 @@
     ],
     "moon": [
         "phosphor icon_dark"
+    ],
+
+    "document-folder": [
+        "iconpark icon_archive"
+    ],
+    "arrow-left-2": [
+        "iconpark icon_arrow_left"
+    ],
+    "arrow-right-2": [
+        "iconpark icon_arrow_right"
+    ],
+    "arrow-up-2": [
+        "iconpark icon_arrow_up"
+    ],
+    "check-2": [
+        "iconpark icon_check"
+    ],
+    "down": [
+        "iconpark icon_chevron_down"
+    ],
+    "close-1": [
+        "iconpark icon_close"
+    ],
+    "message-one-alt": [
+        "iconpark icon_comment"
+    ],
+    "message-one": [
+        "iconpark icon_comment_text"
+    ],
+    "copy-1": [
+        "iconpark icon_copy"
+    ],
+    "align-text-both-one": [
+        "iconpark icon_document"
+    ],
+    "application-menu": [
+        "iconpark icon_dots_grid"
+    ],
+    "preview-close-one": [
+        "iconpark icon_eye_off"
+    ],
+    "home": [
+        "iconpark icon_home"
+    ],
+    "intermediate-mode": [
+        "iconpark icon_light"
+    ],
+    "link-three": [
+        "iconpark icon_link"
+    ],
+    "ordered-list": [
+        "iconpark icon_list_numbered"
+    ],
+    "search": [
+        "iconpark icon_search"
+    ],
+    "hamburger-button": [
+        "iconpark icon_menu"
+    ],
+    "more": [
+        "iconpark icon_more"
+    ],
+    "newspaper-folding": [
+        "iconpark icon_newspaper"
+    ],
+    "file-removal": [
+        "iconpark icon_page"
+    ],
+    "pound-1": [
+        "iconpark icon_pound"
+    ],
+    "redo": [
+        "iconpark icon_reload redo"
+    ],
+    "share-one": [
+        "iconpark icon_share"
+    ],
+    "sort-amount-down": [
+        "iconpark icon_sort_ascending"
+    ],
+    "sort-amount-up": [
+        "iconpark icon_sort_descending"
+    ],
+    "star-1": [
+        "iconpark icon_star"
+    ],
+    "trending-up-1": [
+        "iconpark icon_trending"
+    ],
+    "check-one": [
+        "iconpark icon_verified"
+    ],
+    "dark-mode": [
+        "iconpark icon_dark"
     ]
 }
