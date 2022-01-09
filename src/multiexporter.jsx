@@ -13,11 +13,6 @@
 
 
 var docRef = app.activeDocument;	
-
-
-
-
-
 	
 // Format specific functionality
 getPng8Options = function ( transparency, scaling, embedImage, embedFont, trimEdges ) {
