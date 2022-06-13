@@ -253,6 +253,9 @@
     "magnify": [
         "material_design icon_search"
     ],
+    "monitor": [
+        "material_design icon_monitor monitor desktop"
+    ],
     "menu": [
         "material_design icon_menu"
     ],
