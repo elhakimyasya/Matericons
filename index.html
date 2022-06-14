@@ -1,24 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"
-          content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matericons Usage</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <style>
+      .grid {
+        -ms-flex-line-pack: center;
+        align-content: center;
+        display: -ms-grid;
+        display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+        grid-gap: 8px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+      }
+      .grid .btn_icon_pack.elcreative_button_icon {
+        border-radius: 4px;
+        border: 1px solid var(--color-border);
+        height: 76px;
+      }
+      .grid .btn_icon_pack.elcreative_button_icon:focus {
+        border-color: var(--color-key);
+        background-color: transparent;
+      }
+      .grid .btn_icon_pack.elcreative_button_icon svg {
+        width: 30px;
+        height: 30px;
+      }
+      .loader_icons_pack {
+        margin: 12px auto;
+      }
+      #dialog_icons .dialog_header {
+        text-transform: capitalize;
+      }
+    </style>
+    <noscript><img alt="Custom Icons" loading="lazy" src="https://lh3.googleusercontent.com/-JBhtsEqFPVw/YQtpXOhF5KI/AAAAAAAAigA/Ix1jskAVgWY1nSEYuOBT_gDMDXhKMWX_ACLcBGAsYHQ/s0/1.png" class="zoom_image" /></noscript>
+    <div class="elcreative_input"><input id="icon_name" class="icon_name" name="icon_name" type="text" value="" placeholder=" " autocomplete="false" /><label for="icon_name">Search Icon</label></div>
+    <div class="loader loader_icons_pack w-full text-center items-center flex justify-center">
+      <svg class="circular" height="42" viewBox="25 25 50 50" width="42"><circle class="path" cx="50" cy="50" fill="none" r="20" stroke-miterlimit="10" stroke-width="4"></circle></svg>
+    </div>
+    <div class="grid" id="codes"></div>
+    <div class="dialog_icons elcreative_dialog" id="dialog_icons" role="listbox">
+      <div class="dialog_container">
+        <div class="dialog_header">
+          <span>Icons</span>
+          <button aria-label="Close Dialog" class="elcreative_button_icon elcreative_ripple small" data-toggle-trigger-off="" type="button">
+            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+          </button>
+        </div>
+        <div class="dialog_content">
+          <small><b>SVG Markup</b></small>
+          <pre><code id="icon_path_svg" class='hljs language-html'></code></pre>
+          <small><b>SVG Path Data</b></small>
+          <pre><code id="icon_path"></code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="elcreative_alert alert_info alert_outline">
+      All the Icons above are available in the <a href="https://github.com/elhakimyasya/Matericons" target="_blank" rel="nofollow noopener noreferer"><b>Matericons</b></a> public repository which is Open Source and free to use for everyone.
+      <p>
+        Matericons is licensed under the <a href="https://github.com/elhakimyasya/Matericons/blob/main/LICENSE" target="_blank" rel="nofollow noopener noreferer"><b>MIT License</b></a
+        >.
+      </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/elhakimyasya/Matericons@2c83252d5a6acfd3636206ad291195587ed49028/dist/matericons.min.js"></script>
+    <script>
+      var matericons = matericons.icons;
+      Defer(function () {
+        var e,
+          t = document.getElementById("codes");
+        for (e in matericons) {
+          var n = [],
+            a = matericons[e].tags;
+          for (r in a) n = a;
+          var o = "<button id='button_icon_" + e.toLowerCase().replace(/[-]/g, "_") + "' class='btn_icon_pack elcreative_button_icon' type='button' aria-label='" + e + "' title='icon_" + e.replace(/[-_]/g, " ") + " " + n + "' data-toggle-class-on-target='active' data-toggle-target='#dialog_icons' aria-controls='dialog_icons' aria-expanded='false' aria-haspopup='listbox' data-toggle-outside='' data-title='" + e.replace(/[-_]/g, " ") + "' ><svg width='24' height='24' viewBox='0 0 24 24'>" + matericons[e].contents + "</svg></button";
+          t.innerHTML += o;
+        }
+        document.querySelector(".loader_icons_pack").remove(), window.easyToggleState();
+        for (var i = document.querySelectorAll(".btn_icon_pack"), r = 0; r < i.length; r++)
+          i[r].addEventListener("click", function () {
+            var e = this.getAttribute("data-title"),
+              t = this.querySelector("path").getAttribute("d");
+            (document.getElementById("dialog_icons").querySelector(".dialog_header span").innerHTML = e), (document.getElementById("icon_path").innerText = t), (document.getElementById("icon_path_svg").innerText = "<svg width='24' height='24' viewBox='0 0 24 24'><path d='" + t + "'></path></svg>");
+          });
+      }, 3e3),
+        document.getElementById("icon_name").addEventListener("keyup", function () {
+          var e,
+            t = document.getElementById("icon_name").value.toUpperCase(),
+            n = document.querySelectorAll(".grid button");
+          for (i = 0; i < n.length; i++) {
+            e = n[i].getAttribute("title").toUpperCase();
+            var a = new RegExp(t, "i");
+            e.match(a) ? (n[i].style.display = "") : (n[i].style.display = "none");
+          }
+        });
+    </script>
+
     <i data-matericons="monitor"></i>
     <i data-matericons="evernote"></i>
     <i data-matericons="linkedin"></i>
 
     <script src="../dist/matericons.min.js"></script>
     <script>
-        matericons.replace()
+      matericons.replace();
     </script>
-</body>
-
+  </body>
 </html>
