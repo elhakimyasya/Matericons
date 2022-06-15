@@ -1,0 +1,9 @@
+<svg
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+  class="matericons matericons-arrow-up-2"
+>
+  <path d="M12 20a.9.9 0 0 1-.8-.8V6.7l-3.4 3.5a.9.9 0 0 1-1.2 0 1.4 1.4 0 0 1-.2-.6 1.4 1.4 0 0 1 .2-.6l4.8-4.8h1.2L17.4 9a.8.8 0 0 1-1.2 1.2l-3.4-3.5v12.5a.9.9 0 0 1-.8.8z"></path>
+</svg>
