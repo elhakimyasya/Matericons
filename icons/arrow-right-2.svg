@@ -4,6 +4,7 @@
   width="24"
   xmlns="http://www.w3.org/2000/svg"
   class="matericons matericons-arrow-right-2"
+  aria-hidden="true"
 >
   <path d="M4 12a.9.9 0 0 1 .8-.8h12.5l-3.5-3.4a.9.9 0 0 1 0-1.2l.6-.2.6.2 4.8 4.8v.3a.6.6 0 0 1 0 .6v.3L15 17.4a.8.8 0 0 1-1.2-1.2l3.5-3.4H4.8A.9.9 0 0 1 4 12z"></path>
 </svg>
