@@ -8,6 +8,10 @@ const gulpRename = require('gulp-rename');
 const gulpJsonFormat = require('gulp-json-format');
 const gulpJsonEditor = require('gulp-json-editor');
 const gulpJsonMin = require('gulp-jsonmin');
+const gulpJson = require('gulp-json');
+const gulpNunjucks = require('gulp-nunjucks');
+
+const matericonsDist = './dist/matericons.json';
 
 gulp.task('icons', () => {
     const sources = [
@@ -54,8 +58,6 @@ gulp.task('icons', () => {
             },
         }))
         .on('end', () => {
-            const filePath = 'matericons.json';
-
             const iconIDMap = {};
             const outputIcons = [];
 
@@ -90,21 +92,20 @@ gulp.task('icons', () => {
                 return 0;
             });
 
-            const json = JSON.stringify(outputIcons, null, 2);
+            const filePath = 'matericons.json';
             return gulp.src('package.json')
                 .pipe(gulpJsonFormat(2))
                 .pipe(gulpRename(filePath))
                 .pipe(gulp.dest('./dist'))
+
                 .on('end', () => {
-                    fs.writeFileSync(path.join(__dirname, 'dist', filePath), json);
+                    fs.writeFileSync(path.join(__dirname, 'dist', filePath), JSON.stringify(outputIcons, null, 2));
                 });
         });
 });
 
-gulp.task('icon-tags', () => {
-    const source = './dist/matericons.json';
-
-    const icons = JSON.parse(fs.readFileSync(source));
+gulp.task('icon-build', () => {
+    const icons = JSON.parse(fs.readFileSync(matericonsDist));
     const tags = JSON.parse(fs.readFileSync('./src/icon-tags.json'));
 
     const updatedIcons = icons.map((icon) => {
@@ -122,7 +123,7 @@ gulp.task('icon-tags', () => {
         return icon;
     });
 
-    return gulp.src(source)
+    return gulp.src(matericonsDist)
         .pipe(gulpJsonEditor(function (json) {
             return updatedIcons;
         }))
