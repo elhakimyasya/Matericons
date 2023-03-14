@@ -249,5 +249,11 @@
         "tags": [
             "facebook"
         ]
+    },
+    {
+        "name": "gopay",
+        "tags": [
+            "gojek"
+        ]
     }
 ]
