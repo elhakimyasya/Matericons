@@ -83,8 +83,11 @@ gulp.task('icons', () => {
             });
 
             // Remove duplicates from outputIcons based on the `data` property
-            const filteredIcons = lodash.uniqBy(outputIcons, 'data');
-            // Sort the outputIcons array by name alphabetically
+            const filteredIcons = lodash.uniqWith(outputIcons, lodash.isEqualWith((a, b) => {
+                return a.data === b.data;
+            }));
+
+            // Sort the filteredIcons array by name alphabetically
             filteredIcons.sort((a, b) => {
                 if (a.name < b.name) {
                     return -1;
@@ -102,7 +105,7 @@ gulp.task('icons', () => {
                 .pipe(gulp.dest('./dist'))
 
                 .on('end', () => {
-                    fs.writeFileSync(path.join(__dirname, 'dist', filePath), JSON.stringify(outputIcons, null, 2));
+                    fs.writeFileSync(path.join(__dirname, 'dist', filePath), JSON.stringify(filteredIcons, null, 2));
                 });
         });
 });
