@@ -134,6 +134,7 @@ gulp.task('sprites', () => {
     const sources = [
         './src/svgs/material-design.svg',
         './src/svgs/phosphor-regular.svg',
+        './src/svgs/remix-line.svg',
         './src/svgs/social-default.svg',
     ];
 

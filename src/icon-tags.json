@@ -33,13 +33,15 @@
     {
         "name": "comment",
         "tags": [
-            "chat-centered-dots"
+            "chat-centered-dots",
+            "message"
         ]
     },
     {
         "name": "comment-text",
         "tags": [
-            "chat-centered-text"
+            "chat-centered-text",
+            "message"
         ]
     },
     {
@@ -76,7 +78,9 @@
     {
         "name": "link-open",
         "tags": [
-            "arrow-square-up-right"
+            "arrow-square-up-right",
+            "open-in-new",
+            "external-link"
         ]
     },
     {
@@ -113,37 +117,44 @@
     {
         "name": "read-more",
         "tags": [
-            "newspaper"
+            "newspaper",
+            "book"
         ]
     },
     {
         "name": "page",
         "tags": [
-            "file-text"
+            "file-text",
+            "doc",
+            "file"
         ]
     },
     {
         "name": "pin",
         "tags": [
-            "push-pin-simple"
+            "push-pin-simple",
+            "pushpin"
         ]
     },
     {
         "name": "reload",
         "tags": [
-            "repeat"
+            "repeat",
+            "restart"
         ]
     },
     {
         "name": "search",
         "tags": [
-            "magnifying-glass"
+            "magnifying-glass",
+            "magnify"
         ]
     },
     {
         "name": "verified",
         "tags": [
-            "seal-check"
+            "seal-check",
+            "decagram"
         ]
     },
     {
@@ -153,9 +164,16 @@
         ]
     },
     {
+        "name": "translate",
+        "tags": [
+            "language"
+        ]
+    },
+    {
         "name": "settings",
         "tags": [
-            "gear"
+            "gear",
+            "cog"
         ]
     },
     {
@@ -218,6 +236,18 @@
             "iphone",
             "ipad",
             "ios"
+        ]
+    },
+    {
+        "name": "hp",
+        "tags": [
+            "hewlett-packard"
+        ]
+    },
+    {
+        "name": "messanger",
+        "tags": [
+            "facebook"
         ]
     }
 ]
