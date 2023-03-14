@@ -196,14 +196,28 @@
         "name": "appple",
         "tags": [
             "smartphone",
-            "iphone"
+            "iphone",
+            "mac",
+            "macbook",
+            "ipad",
+            "ios"
         ]
     },
     {
         "name": "republic-of-gamers",
         "tags": [
             "asus",
-            "gaming"
+            "gaming",
+            "rog"
+        ]
+    },
+    {
+        "name": "app-store",
+        "tags": [
+            "apple",
+            "iphone",
+            "ipad",
+            "ios"
         ]
     }
 ]
