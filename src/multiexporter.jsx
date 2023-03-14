@@ -106,10 +106,7 @@ saveFxg = function ( doc, filePath, options, artboardIndex, artboardName ) {
 }
 
 
-
-
 var multi_exporter = {
-
 	PREFS_LAYER_NAME: "nyt_exporter_info",
 	
 	multiExporterPrefs:   null,
@@ -124,7 +121,7 @@ var multi_exporter = {
 	innerPadding:   false,
 	ignoreWarnings:   false,
 	
-	format:		 "PNG 24",
+	format:		 "SVG",
 	artboards:	null,
 	layers:	null,
 	
