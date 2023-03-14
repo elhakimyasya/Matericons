@@ -21,17 +21,17 @@ gulp.task('icons', () => {
     const icons = [];
 
     return gulp.src(sources)
-        .pipe(gulpSvgMin({
-            plugins: [
-                {
-                    cleanupIDs: {
-                        remove: false,
-                        minify: true,
-                        mergeable: false
-                    },
-                },
-            ]
-        }))
+        // .pipe(gulpSvgMin({
+        //     plugins: [
+        //         {
+        //             cleanupIDs: {
+        //                 remove: false,
+        //                 minify: true,
+        //                 mergeable: false
+        //             },
+        //         },
+        //     ]
+        // }))
         .pipe(gulpCheerio({
             run: function ($) {
                 $('path').each(function () {
