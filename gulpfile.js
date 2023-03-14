@@ -67,12 +67,12 @@ gulp.task('icons', () => {
                 if (id in iconIDMap) {
                     // If the name exists, append an index number as a suffix
                     const index = iconIDMap[id] + 1;
-                    id = id.replace(/_/g, '-') + '-' + index;
+                    id = id.replace(/_/g, '_') + '_' + index;
                     iconIDMap[icon.id] = index;
                 } else {
                     // If the name doesn't exist, add it to the iconIDMap with an index of 1
                     iconIDMap[id] = 1;
-                    id = id.replace(/_/g, '-').replace(/ /g, '-');
+                    id = id.replace(/-/g, '_').replace(/ /g, '_');
                 }
 
                 outputIcons.push({
@@ -121,6 +121,16 @@ gulp.task('icon-build', () => {
         }
 
         return icon;
+    });
+
+    const uniqueIcons = [];
+    const seenData = new Set();
+
+    updatedIcons.forEach((icon) => {
+        if (!seenData.has(icon.data)) {
+            uniqueIcons.push(icon);
+            seenData.add(icon.data);
+        }
     });
 
     return gulp.src(matericonsDist)

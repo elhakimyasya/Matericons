@@ -63,7 +63,8 @@
     {
         "name": "label",
         "tags": [
-            "hash"
+            "hash",
+            "pound"
         ]
     },
     {
