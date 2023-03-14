@@ -8,6 +8,7 @@ const gulpRename = require('gulp-rename');
 const gulpJsonFormat = require('gulp-json-format');
 const gulpJsonEditor = require('gulp-json-editor');
 const gulpJsonMin = require('gulp-jsonmin');
+const gulpReplace = require('gulp-replace');
 const gulpJson = require('gulp-json');
 const gulpNunjucks = require('gulp-nunjucks');
 
@@ -140,3 +141,60 @@ gulp.task('icon-build', () => {
         .pipe(gulpJsonMin())
         .pipe(gulp.dest('./dist'));
 });
+
+gulp.task('build-svg-sprite', () => {
+    const sources = [
+        './src/svgs/material-design.svg'
+    ];
+
+    return gulp.src(sources)
+        .pipe(gulpSvgMin({
+            plugins: [
+                {
+                    cleanupIDs: {
+                        remove: false,
+                        minify: true,
+                        mergeable: false
+                    },
+                },
+            ]
+        }))
+        .pipe(gulpCheerio({
+            run: function ($) {
+                // Remove the id attribute from the SVG tag
+                $('svg').removeAttr('id');
+
+                // Add the width and height attributes to the SVG tag
+                $('svg').attr('width', '24').attr('height', '24').attr('aria-hidden', 'true').attr('class', 'hidden');
+
+                // // Replace the <path> element with a <b:tag> element
+                // $('path').each((i, elem) => {
+                //     const pathId = $(elem).attr('id');
+                //     const pathData = $(elem).attr('d');
+                //     const bTag = $('<b:tag />').attr({
+                //         cond: `data:iconId == "${pathId}"`,
+                //         name: 'path',
+                //         d: pathData,
+                //     });
+                //     $(elem).replaceWith(bTag);
+                // });
+
+
+                $('path').each(function () {
+                    const $path = $(this);
+                    const d = $path.attr('d');
+                    const viewBox = '0 0 24 24';
+                    let id = $path.attr('id');
+
+                    id = id.replace(/[-\s]/g, '_');
+
+                    $path.replaceWith(`<symbol id="icon_${id}" viewBox="${viewBox}"><path d="${d}"/></symbol>`);
+                });
+            },
+
+            parserOptions: {
+                xmlMode: true,
+            },
+        }))
+        .pipe(gulp.dest('./dist/svg'))
+})
