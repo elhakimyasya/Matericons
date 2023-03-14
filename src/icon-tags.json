@@ -169,5 +169,41 @@
         "tags": [
             "bookmark-simple-fill"
         ]
+    },
+    {
+        "name": "acer",
+        "tags": [
+            "brand",
+            "smartphone"
+        ]
+    },
+    {
+        "name": "android",
+        "tags": [
+            "brand",
+            "smartphone",
+            "google"
+        ]
+    },
+    {
+        "name": "aoc",
+        "tags": [
+            "brand",
+            "monitor"
+        ]
+    },
+    {
+        "name": "appple",
+        "tags": [
+            "smartphone",
+            "iphone"
+        ]
+    },
+    {
+        "name": "republic-of-gamers",
+        "tags": [
+            "asus",
+            "gaming"
+        ]
     }
 ]
