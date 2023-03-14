@@ -25,7 +25,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "gulp icons && gulp icon-build"
+    "build": "gulp icons && gulp icon-build",
+    "sprite": "gulp sprites"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

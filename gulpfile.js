@@ -130,9 +130,11 @@ gulp.task('icon-build', () => {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('build-svg-sprite', () => {
+gulp.task('sprites', () => {
     const sources = [
-        './src/svgs/material-design.svg'
+        './src/svgs/material-design.svg',
+        './src/svgs/phosphor-regular.svg',
+        './src/svgs/social-default.svg',
     ];
 
     return gulp.src(sources)
@@ -163,7 +165,7 @@ gulp.task('build-svg-sprite', () => {
 
                     id = id.replace(/[-\s]/g, '_');
 
-                    $path.replaceWith(`<symbol id="icon_${id}" viewBox="${viewBox}"><path d="${d}"/></symbol>`);
+                    $path.replaceWith(`<symbol id="icon_${id}" viewBox="${viewBox}"><path d="${d}"></path></symbol>`);
                 });
             },
 
