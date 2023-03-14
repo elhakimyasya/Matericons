@@ -33,10 +33,12 @@ gulp.task('icons', () => {
                 $('path').each(function () {
                     const tags = $('svg').attr('id') || $('g').attr('id');
 
+                    const id = $(this).attr('id');
                     const name = $(this).attr('id');
                     const data = $(this).attr('d');
 
                     icons.push({
+                        id,
                         name,
                         tags: [
                             name,
@@ -54,26 +56,26 @@ gulp.task('icons', () => {
         .on('end', () => {
             const filePath = 'matericons.json';
 
-            const iconNameMap = {};
+            const iconIDMap = {};
             const outputIcons = [];
 
-            icons.forEach(icon => {
-                let name = icon.name;
+            icons.forEach((icon) => {
+                let id = icon.id;
 
-                if (name in iconNameMap) {
+                if (id in iconIDMap) {
                     // If the name exists, append an index number as a suffix
-                    const index = iconNameMap[name] + 1;
-                    name = name.replace(/_/g, '-') + '-' + index;
-                    iconNameMap[icon.name] = index;
+                    const index = iconIDMap[id] + 1;
+                    id = id.replace(/_/g, '-') + '-' + index;
+                    iconIDMap[icon.id] = index;
                 } else {
-                    // If the name doesn't exist, add it to the iconNameMap with an index of 1
-                    iconNameMap[name] = 1;
-                    name = name.replace(/_/g, '-').replace(/ /g, '-');
+                    // If the name doesn't exist, add it to the iconIDMap with an index of 1
+                    iconIDMap[id] = 1;
+                    id = id.replace(/_/g, '-').replace(/ /g, '-');
                 }
 
                 outputIcons.push({
                     ...icon,
-                    name: name
+                    id: id
                 });
             });
 

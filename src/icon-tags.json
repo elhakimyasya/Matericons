@@ -1,9 +1,172 @@
 [
     {
-        "name": "blogger",
+        "name": "arrow-right",
         "tags": [
-            "icons",
-            "logo"
+            "forward"
+        ]
+    },
+    {
+        "name": "arrow-left",
+        "tags": [
+            "back"
+        ]
+    },
+    {
+        "name": "arrow-top",
+        "tags": [
+            "up"
+        ]
+    },
+    {
+        "name": "close",
+        "tags": [
+            "x"
+        ]
+    },
+    {
+        "name": "clear",
+        "tags": [
+            "backspace",
+            "delete"
+        ]
+    },
+    {
+        "name": "comment",
+        "tags": [
+            "chat-centered-dots"
+        ]
+    },
+    {
+        "name": "comment-text",
+        "tags": [
+            "chat-centered-text"
+        ]
+    },
+    {
+        "name": "dark",
+        "tags": [
+            "moon-stars"
+        ]
+    },
+    {
+        "name": "download",
+        "tags": [
+            "download-simple"
+        ]
+    },
+    {
+        "name": "home",
+        "tags": [
+            "house"
+        ]
+    },
+    {
+        "name": "label",
+        "tags": [
+            "hash"
+        ]
+    },
+    {
+        "name": "light",
+        "tags": [
+            "sun"
+        ]
+    },
+    {
+        "name": "link-open",
+        "tags": [
+            "arrow-square-up-right"
+        ]
+    },
+    {
+        "name": "list",
+        "tags": [
+            "list-numbers"
+        ]
+    },
+    {
+        "name": "menu",
+        "tags": [
+            "list"
+        ]
+    },
+    {
+        "name": "menu-more",
+        "tags": [
+            "dots-nine"
+        ]
+    },
+    {
+        "name": "more",
+        "tags": [
+            "dots-three"
+        ]
+    },
+    {
+        "name": "more-vertical",
+        "tags": [
+            "dots-three",
+            "dots-three-vertical"
+        ]
+    },
+    {
+        "name": "read-more",
+        "tags": [
+            "newspaper"
+        ]
+    },
+    {
+        "name": "page",
+        "tags": [
+            "file-text"
+        ]
+    },
+    {
+        "name": "pin",
+        "tags": [
+            "push-pin-simple"
+        ]
+    },
+    {
+        "name": "reload",
+        "tags": [
+            "repeat"
+        ]
+    },
+    {
+        "name": "search",
+        "tags": [
+            "magnifying-glass"
+        ]
+    },
+    {
+        "name": "verified",
+        "tags": [
+            "seal-check"
+        ]
+    },
+    {
+        "name": "zip",
+        "tags": [
+            "file-zip"
+        ]
+    },
+    {
+        "name": "settings",
+        "tags": [
+            "gear"
+        ]
+    },
+    {
+        "name": "bookmark-add",
+        "tags": [
+            "bookmark-simple"
+        ]
+    },
+    {
+        "name": "bookmark-add",
+        "tags": [
+            "bookmark-simple-fill"
         ]
     }
 ]
