@@ -82,8 +82,10 @@ gulp.task('icons', () => {
                 });
             });
 
+            // Remove duplicates from outputIcons based on the `data` property
+            const filteredIcons = lodash.uniqBy(outputIcons, 'data');
             // Sort the outputIcons array by name alphabetically
-            outputIcons.sort((a, b) => {
+            filteredIcons.sort((a, b) => {
                 if (a.name < b.name) {
                     return -1;
                 }
@@ -124,16 +126,6 @@ gulp.task('icon-build', () => {
         return icon;
     });
 
-    const uniqueIcons = [];
-    const seenData = new Set();
-
-    updatedIcons.forEach((icon) => {
-        if (!seenData.has(icon.data)) {
-            uniqueIcons.push(icon);
-            seenData.add(icon.data);
-        }
-    });
-
     return gulp.src(matericonsDist)
         .pipe(gulpJsonEditor(function (json) {
             return updatedIcons;
@@ -166,19 +158,6 @@ gulp.task('build-svg-sprite', () => {
 
                 // Add the width and height attributes to the SVG tag
                 $('svg').attr('width', '24').attr('height', '24').attr('aria-hidden', 'true').attr('class', 'hidden');
-
-                // // Replace the <path> element with a <b:tag> element
-                // $('path').each((i, elem) => {
-                //     const pathId = $(elem).attr('id');
-                //     const pathData = $(elem).attr('d');
-                //     const bTag = $('<b:tag />').attr({
-                //         cond: `data:iconId == "${pathId}"`,
-                //         name: 'path',
-                //         d: pathData,
-                //     });
-                //     $(elem).replaceWith(bTag);
-                // });
-
 
                 $('path').each(function () {
                     const $path = $(this);
