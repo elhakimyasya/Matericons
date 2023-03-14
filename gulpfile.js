@@ -1,10 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const lodash = require('lodash');
 const gulp = require('gulp');
 const gulpSvgMin = require('gulp-svgmin');
 const gulpCheerio = require('gulp-cheerio');
 const gulpRename = require('gulp-rename');
 const gulpJsonFormat = require('gulp-json-format');
+const gulpJsonEditor = require('gulp-json-editor');
+const gulpJsonMin = require('gulp-jsonmin');
 
 gulp.task('icons', () => {
     const sources = [
@@ -49,7 +52,7 @@ gulp.task('icons', () => {
             },
         }))
         .on('end', () => {
-            const filePath = 'icons.json';
+            const filePath = 'matericons.json';
 
             const iconNameMap = {};
             const outputIcons = [];
@@ -94,4 +97,33 @@ gulp.task('icons', () => {
                     fs.writeFileSync(path.join(__dirname, 'dist', filePath), json);
                 });
         });
+});
+
+gulp.task('icon-tags', () => {
+    const source = './dist/matericons.json';
+
+    const icons = JSON.parse(fs.readFileSync(source));
+    const tags = JSON.parse(fs.readFileSync('./src/icon-tags.json'));
+
+    const updatedIcons = icons.map((icon) => {
+        const matchedTag = lodash.find(tags, {
+            name: icon.name
+        });
+
+        if (matchedTag) {
+            icon.tags = lodash.uniq([
+                ...icon.tags,
+                ...matchedTag.tags
+            ]);
+        }
+
+        return icon;
+    });
+
+    return gulp.src(source)
+        .pipe(gulpJsonEditor(function (json) {
+            return updatedIcons;
+        }))
+        .pipe(gulpJsonMin())
+        .pipe(gulp.dest('./dist'));
 });
