@@ -222,11 +222,10 @@
         ]
     },
     {
-        "name": "republic-of-gamers",
+        "name": "rog",
         "tags": [
-            "asus",
-            "gaming",
-            "rog"
+            "republic-of-gamers",
+            "gaming"
         ]
     },
     {
@@ -289,6 +288,36 @@
         "tags": [
             "gaming",
             "game"
+        ]
+    },
+    {
+        "name": "youtube",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "youtube-gaming",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "youtube-music",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "youtube-studio",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "youtube-tv",
+        "tags": [
+            "google"
         ]
     }
 ]
