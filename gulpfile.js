@@ -20,6 +20,7 @@ gulp.task('icons', () => {
     const icons = [];
 
     return gulp.src(sources)
+        // Minify SVG Path Data
         .pipe(gulpSvgMin({
             plugins: [
                 {
@@ -31,13 +32,14 @@ gulp.task('icons', () => {
                 },
             ]
         }))
+        // Creating JSON Object Output
         .pipe(gulpCheerio({
             run: function ($) {
-                $('path').each(function () {
-                    const tags = $('svg').attr('id') || $('g').attr('id');
+                const tags = $('svg').attr('id') || $('g').attr('id');
 
+                $('path').each(function () {
                     const id = $(this).attr('id');
-                    const name = $(this).attr('id');
+                    const name = $(this).attr('id').replace(/-?\d+|_?\d+/g, "");
                     const data = $(this).attr('d');
 
                     icons.push({
@@ -64,12 +66,10 @@ gulp.task('icons', () => {
                 let id = icon.id;
 
                 if (id in iconIDMap) {
-                    // If the name exists, append an index number as a suffix
                     const index = iconIDMap[id] + 1;
                     id = id.replace(/_/g, '_') + '_' + index;
                     iconIDMap[icon.id] = index;
                 } else {
-                    // If the name doesn't exist, add it to the iconIDMap with an index of 1
                     iconIDMap[id] = 1;
                     id = id.replace(/-/g, '_').replace(/ /g, '_');
                 }
@@ -101,12 +101,14 @@ gulp.task('icons', () => {
                     fs.writeFileSync(path.join(__dirname, 'dist', filePath), JSON.stringify(outputIcons, null, 2));
                 });
         });
+
 });
 
 gulp.task('icon-build', () => {
     const icons = JSON.parse(fs.readFileSync(matericonsDist));
     const tags = JSON.parse(fs.readFileSync('./src/icon-tags.json'));
 
+    // Add Icon Tags
     const updatedIcons = icons.map((icon) => {
         const matchedTag = lodash.find(tags, {
             name: icon.name
@@ -123,8 +125,16 @@ gulp.task('icon-build', () => {
     });
 
     return gulp.src(matericonsDist)
-        .pipe(gulpJsonEditor(function (json) {
-            return updatedIcons;
+        // Remove Duplicated .data
+        .pipe(gulpJsonEditor(function () {
+            return updatedIcons.filter(function (obj) {
+                if (updatedIcons.hasOwnProperty(obj.data)) {
+                    return false;
+                }
+                updatedIcons[obj.data] = true;
+                return true;
+            });
+
         }))
         .pipe(gulpJsonMin())
         .pipe(gulp.dest('./dist'));
