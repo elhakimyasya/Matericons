@@ -239,6 +239,15 @@
         ]
     },
     {
+        "name": "apple",
+        "tags": [
+            "iphone",
+            "ipad",
+            "ios",
+            "app-store"
+        ]
+    },
+    {
         "name": "hp",
         "tags": [
             "hewlett-packard"
@@ -261,6 +270,25 @@
         "tags": [
             "blogspot",
             "google"
+        ]
+    },
+    {
+        "name": "thinkpad",
+        "tags": [
+            "lenovo"
+        ]
+    },
+    {
+        "name": "ubuntu",
+        "tags": [
+            "linux"
+        ]
+    },
+    {
+        "name": "razer",
+        "tags": [
+            "gaming",
+            "game"
         ]
     }
 ]
