@@ -255,5 +255,12 @@
         "tags": [
             "gojek"
         ]
+    },
+    {
+        "name": "blogger",
+        "tags": [
+            "blogspot",
+            "google"
+        ]
     }
 ]
