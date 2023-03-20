@@ -254,6 +254,18 @@
         ]
     },
     {
+        "name": "marvel",
+        "tags": [
+            "comics"
+        ]
+    },
+    {
+        "name": "dc",
+        "tags": [
+            "comics"
+        ]
+    },
+    {
         "name": "hp",
         "tags": [
             "hewlett-packard"
@@ -325,6 +337,12 @@
         "name": "youtube-tv",
         "tags": [
             "google"
+        ]
+    },
+    {
+        "name": "bank-cimb",
+        "tags": [
+            "cimb-niaga"
         ]
     }
 ]
