@@ -158,6 +158,12 @@
         ]
     },
     {
+        "name": "check",
+        "tags": [
+            "checkmark"
+        ]
+    },
+    {
         "name": "zip",
         "tags": [
             "file-zip"
@@ -177,9 +183,10 @@
         ]
     },
     {
-        "name": "bookmark-add",
+        "name": "bookmark",
         "tags": [
-            "bookmark-simple"
+            "bookmark-simple",
+            "bookmark-fill"
         ]
     },
     {
