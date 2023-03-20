@@ -76,17 +76,25 @@
         ]
     },
     {
+        "name": "link",
+        "tags": [
+            "link-45deg"
+        ]
+    },
+    {
         "name": "link-open",
         "tags": [
             "arrow-square-up-right",
             "open-in-new",
-            "external-link"
+            "external-link",
+            "link-45deg"
         ]
     },
     {
         "name": "list",
         "tags": [
-            "list-numbers"
+            "list-numbers",
+            "list-ol"
         ]
     },
     {
@@ -118,7 +126,8 @@
         "name": "read-more",
         "tags": [
             "newspaper",
-            "book"
+            "book",
+            "card-text"
         ]
     },
     {
@@ -126,7 +135,8 @@
         "tags": [
             "file-text",
             "doc",
-            "file"
+            "file",
+            "file-earmark-text"
         ]
     },
     {
@@ -140,7 +150,8 @@
         "name": "reload",
         "tags": [
             "repeat",
-            "restart"
+            "restart",
+            "arrow-clockwise"
         ]
     },
     {
@@ -154,13 +165,26 @@
         "name": "verified",
         "tags": [
             "seal-check",
-            "decagram"
+            "decagram",
+            "patch-check"
         ]
     },
     {
         "name": "check",
         "tags": [
             "checkmark"
+        ]
+    },
+    {
+        "name": "sort-ascending",
+        "tags": [
+            "sort-down"
+        ]
+    },
+    {
+        "name": "sort-descending",
+        "tags": [
+            "sort-up"
         ]
     },
     {
