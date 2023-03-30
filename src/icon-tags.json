@@ -368,5 +368,17 @@
         "tags": [
             "cimb-niaga"
         ]
+    },
+    {
+        "name": "meta",
+        "tags": [
+            "facebook"
+        ]
+    },
+    {
+        "name": "youtube-shorts",
+        "tags": [
+            "google"
+        ]
     }
 ]
