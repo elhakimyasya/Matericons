@@ -380,5 +380,12 @@
         "tags": [
             "google"
         ]
+    },
+    {
+        "name": "tunas-kelapa",
+        "tags": [
+            "parmuka",
+            "scout"
+        ]
     }
 ]
