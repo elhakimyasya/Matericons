@@ -24,4 +24,4 @@ Matericons is licensed under the [Creative Commons Zero v1.0 Universal (CC0)](ht
 
 ## Credits 👏
 
-Matericons is maintained by Yasya El Hakim. The project would not be possible without the contributions of our community. Thank you to all our contributors!
+Matericons is maintained by Yasya El Hakim. The project would not be possible without the contributions of our community.
