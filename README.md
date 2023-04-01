@@ -1,21 +1,31 @@
-# Matericons
+# Matericons 🌟
 
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/yasyaelhakim/5)
+Matericons is an open-source SVG icon collection that is designed and optimized for use in digital projects. The icons are optimized for performance and size, making them lightweight and quick to load.
 
-Matericons is a collection of Open Source SVG Icons. Each icon has been optimized and designed following the design guidelines.
+## Features 🚀
 
-See the complete list of icons at [Materia X2](https://materiax.elcreativeacademy.com/p/icon-sets.html).
+- Open-source SVG icons 🌈
+- Optimized for performance and size 🚀
+- Designed following design guidelines 👨‍🎨
+- Single path and color with 1:1 aspect ratio 🌟
+- Licensed under Creative Commons Zero v1.0 Universal License 📜
 
-## Contributing
+## Usage 🖥️
 
-First of all, thank you for taking your time to contribute!
+To use Matericons in your project, you can download the icons from the [Matericons](https://materiax.elcreativeacademy.com/p/icon-sets.html).
 
-The following are guidelines for contributing to Matericons. Feel free to propose changes to this document in a pull request.
+## Contributing 🤝
 
-### Icon Request
+Matericons welcomes contributions from the community. To contribute to the project, please follow the contribution guidelines.
 
-Before making a new icon request, make sure that you have seen if someone has requested the icon. If there is an open request, please add it. If the icon has not been requested, [create an issue](https://github.com/elhakimyasya/Matericons/issues/new?title=Icon%20Request:%20) with the title `Icon Request: Icon Name` and add as much information as possible.
+## Code of Conduct 🤝
 
-## License
+Matericons has a code of conduct that all contributors are expected to follow. The code of conduct can be found in the CODE_OF_CONDUCT.md file in the Matericons repository.
 
-Matericons is licensed under the [MIT License](https://github.com/elhakimyasya/Matericons/blob/main/LICENSE).
+## License 📜
+
+Matericons is licensed under the [Creative Commons Zero v1.0 Universal (CC0)](https://github.com/elhakimyasya/Matericons/blob/main/LICENSE) license. For more information, please see the LICENSE.md file in the Matericons repository.
+
+## Credits 👏
+
+Matericons is maintained by Yasya El Hakim. The project would not be possible without the contributions of our community. Thank you to all our contributors!
