@@ -16,11 +16,7 @@ To use Matericons in your project, you can download the icons from the [Materico
 
 ## Contributing 🤝
 
-Matericons welcomes contributions from the community. To contribute to the project, please follow the contribution guidelines.
-
-## Code of Conduct 🤝
-
-Matericons has a code of conduct that all contributors are expected to follow. The code of conduct can be found in the CODE_OF_CONDUCT.md file in the Matericons repository.
+Matericons welcomes contributions from the community.
 
 ## License 📜
 
