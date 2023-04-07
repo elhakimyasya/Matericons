@@ -235,6 +235,12 @@
         ]
     },
     {
+        "name": "gmail",
+        "tags": [
+            "google"
+        ]
+    },
+    {
         "name": "aoc",
         "tags": [
             "brand",
@@ -364,6 +370,19 @@
         ]
     },
     {
+        "name": "youtube-kids",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "amp",
+        "tags": [
+            "google",
+            "accelerated-mobile-pages"
+        ]
+    },
+    {
         "name": "bank-cimb",
         "tags": [
             "cimb-niaga"
@@ -386,6 +405,12 @@
         "tags": [
             "pramuka",
             "scout"
+        ]
+    },
+    {
+        "name": "brother",
+        "tags": [
+            "printer"
         ]
     }
 ]
