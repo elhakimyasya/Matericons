@@ -9,6 +9,8 @@ const gulpJsonFormat = require('gulp-json-format');
 const gulpJsonEditor = require('gulp-json-editor');
 const gulpJsonMin = require('gulp-jsonmin');
 const gulpReplace = require('gulp-replace');
+const gulpFilter = require('gulp-filter');
+const gulpSVGStore = require('gulp-svgstore');
 
 const matericonsDist = './dist/matericons.json';
 
@@ -145,6 +147,8 @@ gulp.task('sprites', () => {
         './src/svgs/*.svg',
     ];
 
+    const symbolIdsToKeep = JSON.parse(fs.readFileSync('./src/pack/pack-materia-x2.json'));
+
     return gulp.src(sources)
         .pipe(gulpSvgMin({
             plugins: [
@@ -175,6 +179,16 @@ gulp.task('sprites', () => {
 
                     $path.replaceWith(`<symbol id="icon_${id}" viewBox="${viewBox}"><path d="${d}"></path></symbol>`);
                 });
+
+                // Find all symbol tags and remove the ones that are not listed in tag.json
+                $('symbol').each(function () {
+                    const $symbol = $(this);
+                    const id = $symbol.attr('id');
+                    if (!symbolIdsToKeep.includes(id)) {
+                        $symbol.remove();
+                    }
+                });
+
             },
 
             parserOptions: {

@@ -1,8 +1,60 @@
 [
     {
-        "name": "arrow-right",
+        "name": "acer",
         "tags": [
-            "forward"
+            "brand",
+            "smartphone"
+        ]
+    },
+    {
+        "name": "amp",
+        "tags": [
+            "accelerated-mobile-pages",
+            "google"
+        ]
+    },
+    {
+        "name": "android",
+        "tags": [
+            "brand",
+            "google",
+            "smartphone"
+        ]
+    },
+    {
+        "name": "aoc",
+        "tags": [
+            "brand",
+            "monitor"
+        ]
+    },
+    {
+        "name": "app-store",
+        "tags": [
+            "apple",
+            "ios",
+            "ipad",
+            "iphone"
+        ]
+    },
+    {
+        "name": "apple",
+        "tags": [
+            "app-store",
+            "ios",
+            "ipad",
+            "iphone"
+        ]
+    },
+    {
+        "name": "appple",
+        "tags": [
+            "ios",
+            "ipad",
+            "iphone",
+            "mac",
+            "macbook",
+            "smartphone"
         ]
     },
     {
@@ -12,15 +64,60 @@
         ]
     },
     {
+        "name": "arrow-right",
+        "tags": [
+            "forward"
+        ]
+    },
+    {
         "name": "arrow-top",
         "tags": [
             "up"
         ]
     },
     {
-        "name": "close",
+        "name": "asus-rog",
         "tags": [
-            "x"
+            "gaming",
+            "republic-of-gamers"
+        ]
+    },
+    {
+        "name": "bank-cimb",
+        "tags": [
+            "cimb-niaga"
+        ]
+    },
+    {
+        "name": "blogger",
+        "tags": [
+            "blogspot",
+            "google"
+        ]
+    },
+    {
+        "name": "bookmark",
+        "tags": [
+            "bookmark-fill",
+            "bookmark-simple"
+        ]
+    },
+    {
+        "name": "bookmark-add",
+        "tags": [
+            "bookmark-simple-fill"
+        ]
+    },
+    {
+        "name": "brother",
+        "tags": [
+            "printer"
+        ]
+    },
+    {
+        "name": "check",
+        "tags": [
+            "checkmark"
         ]
     },
     {
@@ -28,6 +125,12 @@
         "tags": [
             "backspace",
             "delete"
+        ]
+    },
+    {
+        "name": "close",
+        "tags": [
+            "x"
         ]
     },
     {
@@ -51,15 +154,39 @@
         ]
     },
     {
+        "name": "dc",
+        "tags": [
+            "comics"
+        ]
+    },
+    {
         "name": "download",
         "tags": [
             "download-simple"
         ]
     },
     {
+        "name": "gmail",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "gopay",
+        "tags": [
+            "gojek"
+        ]
+    },
+    {
         "name": "home",
         "tags": [
             "house"
+        ]
+    },
+    {
+        "name": "hp",
+        "tags": [
+            "hewlett-packard"
         ]
     },
     {
@@ -85,9 +212,9 @@
         "name": "link-open",
         "tags": [
             "arrow-square-up-right",
-            "open-in-new",
             "external-link",
-            "link-45deg"
+            "link-45deg",
+            "open-in-new"
         ]
     },
     {
@@ -95,6 +222,12 @@
         "tags": [
             "list-numbers",
             "list-ol"
+        ]
+    },
+    {
+        "name": "marvel",
+        "tags": [
+            "comics"
         ]
     },
     {
@@ -107,6 +240,18 @@
         "name": "menu-more",
         "tags": [
             "dots-nine"
+        ]
+    },
+    {
+        "name": "messanger",
+        "tags": [
+            "facebook"
+        ]
+    },
+    {
+        "name": "meta",
+        "tags": [
+            "facebook"
         ]
     },
     {
@@ -123,20 +268,12 @@
         ]
     },
     {
-        "name": "read-more",
-        "tags": [
-            "newspaper",
-            "book",
-            "card-text"
-        ]
-    },
-    {
         "name": "page",
         "tags": [
-            "file-text",
             "doc",
             "file",
-            "file-earmark-text"
+            "file-earmark-text",
+            "file-text"
         ]
     },
     {
@@ -147,32 +284,40 @@
         ]
     },
     {
+        "name": "razer",
+        "tags": [
+            "game",
+            "gaming"
+        ]
+    },
+    {
+        "name": "read-more",
+        "tags": [
+            "book",
+            "card-text",
+            "newspaper"
+        ]
+    },
+    {
         "name": "reload",
         "tags": [
+            "arrow-clockwise",
             "repeat",
-            "restart",
-            "arrow-clockwise"
+            "restart"
         ]
     },
     {
         "name": "search",
         "tags": [
-            "magnifying-glass",
-            "magnify"
+            "magnify",
+            "magnifying-glass"
         ]
     },
     {
-        "name": "verified",
+        "name": "settings",
         "tags": [
-            "seal-check",
-            "decagram",
-            "patch-check"
-        ]
-    },
-    {
-        "name": "check",
-        "tags": [
-            "checkmark"
+            "cog",
+            "gear"
         ]
     },
     {
@@ -188,9 +333,9 @@
         ]
     },
     {
-        "name": "zip",
+        "name": "thinkpad",
         "tags": [
-            "file-zip"
+            "lenovo"
         ]
     },
     {
@@ -200,130 +345,10 @@
         ]
     },
     {
-        "name": "settings",
+        "name": "tunas-kelapa",
         "tags": [
-            "gear",
-            "cog"
-        ]
-    },
-    {
-        "name": "bookmark",
-        "tags": [
-            "bookmark-simple",
-            "bookmark-fill"
-        ]
-    },
-    {
-        "name": "bookmark-add",
-        "tags": [
-            "bookmark-simple-fill"
-        ]
-    },
-    {
-        "name": "acer",
-        "tags": [
-            "brand",
-            "smartphone"
-        ]
-    },
-    {
-        "name": "android",
-        "tags": [
-            "brand",
-            "smartphone",
-            "google"
-        ]
-    },
-    {
-        "name": "gmail",
-        "tags": [
-            "google"
-        ]
-    },
-    {
-        "name": "aoc",
-        "tags": [
-            "brand",
-            "monitor"
-        ]
-    },
-    {
-        "name": "appple",
-        "tags": [
-            "smartphone",
-            "iphone",
-            "mac",
-            "macbook",
-            "ipad",
-            "ios"
-        ]
-    },
-    {
-        "name": "asus-rog",
-        "tags": [
-            "republic-of-gamers",
-            "gaming"
-        ]
-    },
-    {
-        "name": "app-store",
-        "tags": [
-            "apple",
-            "iphone",
-            "ipad",
-            "ios"
-        ]
-    },
-    {
-        "name": "apple",
-        "tags": [
-            "iphone",
-            "ipad",
-            "ios",
-            "app-store"
-        ]
-    },
-    {
-        "name": "marvel",
-        "tags": [
-            "comics"
-        ]
-    },
-    {
-        "name": "dc",
-        "tags": [
-            "comics"
-        ]
-    },
-    {
-        "name": "hp",
-        "tags": [
-            "hewlett-packard"
-        ]
-    },
-    {
-        "name": "messanger",
-        "tags": [
-            "facebook"
-        ]
-    },
-    {
-        "name": "gopay",
-        "tags": [
-            "gojek"
-        ]
-    },
-    {
-        "name": "blogger",
-        "tags": [
-            "blogspot",
-            "google"
-        ]
-    },
-    {
-        "name": "thinkpad",
-        "tags": [
-            "lenovo"
+            "pramuka",
+            "scout"
         ]
     },
     {
@@ -333,10 +358,11 @@
         ]
     },
     {
-        "name": "razer",
+        "name": "verified",
         "tags": [
-            "gaming",
-            "game"
+            "decagram",
+            "patch-check",
+            "seal-check"
         ]
     },
     {
@@ -352,7 +378,19 @@
         ]
     },
     {
+        "name": "youtube-kids",
+        "tags": [
+            "google"
+        ]
+    },
+    {
         "name": "youtube-music",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "youtube-shorts",
         "tags": [
             "google"
         ]
@@ -370,47 +408,9 @@
         ]
     },
     {
-        "name": "youtube-kids",
+        "name": "zip",
         "tags": [
-            "google"
-        ]
-    },
-    {
-        "name": "amp",
-        "tags": [
-            "google",
-            "accelerated-mobile-pages"
-        ]
-    },
-    {
-        "name": "bank-cimb",
-        "tags": [
-            "cimb-niaga"
-        ]
-    },
-    {
-        "name": "meta",
-        "tags": [
-            "facebook"
-        ]
-    },
-    {
-        "name": "youtube-shorts",
-        "tags": [
-            "google"
-        ]
-    },
-    {
-        "name": "tunas-kelapa",
-        "tags": [
-            "pramuka",
-            "scout"
-        ]
-    },
-    {
-        "name": "brother",
-        "tags": [
-            "printer"
+            "file-zip"
         ]
     }
 ]
