@@ -29,6 +29,25 @@
         ]
     },
     {
+        "name": "aws",
+        "tags": [
+            "amazon-web-service"
+        ]
+    },
+    {
+        "name": "livin",
+        "tags": [
+            "mandiri"
+        ]
+    },
+    {
+        "name": "avengers",
+        "tags": [
+            "marvel",
+            "disney"
+        ]
+    },
+    {
         "name": "app-store",
         "tags": [
             "apple",
