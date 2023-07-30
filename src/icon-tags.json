@@ -237,6 +237,14 @@
         ]
     },
     {
+        "name": "openai",
+        "tags": [
+            "open-ai",
+            "artificial-intelligent",
+            "chatgpt"
+        ]
+    },
+    {
         "name": "list",
         "tags": [
             "list-numbers",
@@ -333,6 +341,21 @@
             "book",
             "card-text",
             "newspaper"
+        ]
+    },
+    {
+        "name": "openai",
+        "tags": [
+            "open-ai",
+            "artificial-intelligent",
+            "chatgpt"
+        ]
+    },
+    {
+        "name": "microsoft-bing",
+        "tags": [
+            "browser",
+            "web"
         ]
     },
     {
@@ -454,6 +477,18 @@
         "name": "zip",
         "tags": [
             "file-zip"
+        ]
+    },
+    {
+        "name": "pubg",
+        "tags": [
+            "game"
+        ]
+    },
+    {
+        "name": "batman",
+        "tags": [
+            "dc"
         ]
     }
 ]
