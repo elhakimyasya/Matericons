@@ -128,6 +128,24 @@
         ]
     },
     {
+        "name": "pwa",
+        "tags": [
+            "progressive-web-app"
+        ]
+    },
+    {
+        "name": "who",
+        "tags": [
+            "world-health-organization"
+        ]
+    },
+    {
+        "name": "epson",
+        "tags": [
+            "printer"
+        ]
+    },
+    {
         "name": "cat",
         "tags": [
             "caterpillar"
