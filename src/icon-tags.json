@@ -18,6 +18,7 @@
         "tags": [
             "brand",
             "google",
+            "mobile",
             "smartphone"
         ]
     },
@@ -61,6 +62,12 @@
         "name": "arrow-left",
         "tags": [
             "back"
+        ]
+    },
+    {
+        "name": "flutter",
+        "tags": [
+            "google"
         ]
     },
     {
@@ -264,6 +271,12 @@
         ]
     },
     {
+        "name": "adidas",
+        "tags": [
+            "sports"
+        ]
+    },
+    {
         "name": "cadillac",
         "tags": [
             "car"
@@ -453,6 +466,14 @@
         "tags": [
             "push-pin-simple",
             "pushpin"
+        ]
+    },
+    {
+        "name": "adobe-after-affects",
+        "tags": [
+            "design",
+            "video",
+            "software"
         ]
     },
     {
