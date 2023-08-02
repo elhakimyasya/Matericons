@@ -334,7 +334,8 @@
     {
         "name": "kia",
         "tags": [
-            "car"
+            "car",
+            "automotive"
         ]
     },
     {
@@ -424,13 +425,37 @@
     {
         "name": "messanger",
         "tags": [
-            "facebook"
+            "facebook",
+            "social"
         ]
     },
     {
         "name": "meta",
         "tags": [
-            "facebook"
+            "facebook",
+            "social"
+        ]
+    },
+    {
+        "name": "mobile-legends",
+        "tags": [
+            "game",
+            "bang-bang"
+        ]
+    },
+    {
+        "name": "threads",
+        "tags": [
+            "facebook",
+            "social",
+            "meta"
+        ]
+    },
+    {
+        "name": "laliga",
+        "tags": [
+            "soccer",
+            "football"
         ]
     },
     {
@@ -474,6 +499,20 @@
             "design",
             "video",
             "software"
+        ]
+    },
+    {
+        "name": "twitter",
+        "tags": [
+            "social",
+            "x"
+        ]
+    },
+    {
+        "name": "twitter-x",
+        "tags": [
+            "social",
+            "x"
         ]
     },
     {
@@ -583,6 +622,21 @@
         "name": "youtube",
         "tags": [
             "google"
+        ]
+    },
+    {
+        "name": "google-bard",
+        "tags": [
+            "ai",
+            "artificial-intelligence"
+        ]
+    },
+    {
+        "name": "playstation",
+        "tags": [
+            "ps",
+            "sony",
+            "console"
         ]
     },
     {
