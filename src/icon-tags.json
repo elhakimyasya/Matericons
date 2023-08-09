@@ -7,6 +7,36 @@
         ]
     },
     {
+        "name": "adidas",
+        "tags": [
+            "sports"
+        ]
+    },
+    {
+        "name": "adobe-after-affects",
+        "tags": [
+            "design",
+            "software",
+            "video"
+        ]
+    },
+    {
+        "name": "alfa-romeo",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "alpine",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
         "name": "amp",
         "tags": [
             "accelerated-mobile-pages",
@@ -65,12 +95,6 @@
         ]
     },
     {
-        "name": "flutter",
-        "tags": [
-            "google"
-        ]
-    },
-    {
         "name": "arrow-right",
         "tags": [
             "forward"
@@ -83,10 +107,35 @@
         ]
     },
     {
+        "name": "aston-martin",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
         "name": "asus-rog",
         "tags": [
             "gaming",
             "republic-of-gamers"
+        ]
+    },
+    {
+        "name": "at-t",
+        "tags": [
+            "at and t",
+            "at&t",
+            "communication",
+            "telemunication"
+        ]
+    },
+    {
+        "name": "audi",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
@@ -109,10 +158,32 @@
         ]
     },
     {
+        "name": "batman",
+        "tags": [
+            "dc"
+        ]
+    },
+    {
+        "name": "bentley",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
         "name": "blogger",
         "tags": [
             "blogspot",
             "google"
+        ]
+    },
+    {
+        "name": "bmw",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
@@ -135,27 +206,27 @@
         ]
     },
     {
-        "name": "alfa-romeo",
+        "name": "bugatti",
         "tags": [
-            "car"
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
-        "name": "pwa",
+        "name": "buick",
         "tags": [
-            "progressive-web-app"
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
-        "name": "who",
+        "name": "cadillac",
         "tags": [
-            "world-health-organization"
-        ]
-    },
-    {
-        "name": "epson",
-        "tags": [
-            "printer"
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
@@ -171,6 +242,15 @@
         ]
     },
     {
+        "name": "chevrolet",
+        "tags": [
+            "automotive",
+            "car",
+            "general-motors-company",
+            "vehicle"
+        ]
+    },
+    {
         "name": "clear",
         "tags": [
             "backspace",
@@ -181,6 +261,12 @@
         "name": "close",
         "tags": [
             "x"
+        ]
+    },
+    {
+        "name": "cognizant",
+        "tags": [
+            "technology"
         ]
     },
     {
@@ -198,6 +284,22 @@
         ]
     },
     {
+        "name": "dacia",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "daihatsu",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
         "name": "dark",
         "tags": [
             "moon-stars"
@@ -210,9 +312,81 @@
         ]
     },
     {
+        "name": "dhl",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "shipping",
+            "transport"
+        ]
+    },
+    {
+        "name": "dodge",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
         "name": "download",
         "tags": [
             "download-simple"
+        ]
+    },
+    {
+        "name": "epson",
+        "tags": [
+            "printer"
+        ]
+    },
+    {
+        "name": "fedex",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "shipping",
+            "transport"
+        ]
+    },
+    {
+        "name": "ferrari",
+        "tags": [
+            "automotive",
+            "car",
+            "scuderia",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "flutter",
+        "tags": [
+            "google"
+        ]
+    },
+    {
+        "name": "ford",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "garuda-indonesia",
+        "tags": [
+            "airlines"
+        ]
+    },
+    {
+        "name": "gm",
+        "tags": [
+            "automotive",
+            "car",
+            "general-motors-company",
+            "vehicle"
         ]
     },
     {
@@ -222,9 +396,57 @@
         ]
     },
     {
+        "name": "gmc",
+        "tags": [
+            "automotive",
+            "car",
+            "general-motors-company",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "gobox",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "gojek",
+            "shipping",
+            "transport"
+        ]
+    },
+    {
+        "name": "google-bard",
+        "tags": [
+            "ai",
+            "artificial-intelligence"
+        ]
+    },
+    {
         "name": "gopay",
         "tags": [
             "gojek"
+        ]
+    },
+    {
+        "name": "gosend",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "gojek",
+            "shipping",
+            "transport"
+        ]
+    },
+    {
+        "name": "grab-express",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "shipping",
+            "transport"
         ]
     },
     {
@@ -234,9 +456,56 @@
         ]
     },
     {
+        "name": "honda",
+        "tags": [
+            "automotive",
+            "car",
+            "motorcycle",
+            "vehicle"
+        ]
+    },
+    {
         "name": "hp",
         "tags": [
             "hewlett-packard"
+        ]
+    },
+    {
+        "name": "hyundai",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "isuzu",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "jeep",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "kia",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "ktm",
+        "tags": [
+            "motorcycle"
         ]
     },
     {
@@ -247,113 +516,18 @@
         ]
     },
     {
-        "name": "aston-martin",
+        "name": "laliga",
         "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "bentley",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "bmw",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "bugatti",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "adidas",
-        "tags": [
-            "sports"
-        ]
-    },
-    {
-        "name": "cadillac",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "daihatsu",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "dodge",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "ferrari",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "ford",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "honda",
-        "tags": [
-            "car",
-            "motorcycle"
-        ]
-    },
-    {
-        "name": "hyundai",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "isuzu",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "jeep",
-        "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "kia",
-        "tags": [
-            "car",
-            "automotive"
-        ]
-    },
-    {
-        "name": "ktm",
-        "tags": [
-            "motorcycle"
+            "football",
+            "soccer"
         ]
     },
     {
         "name": "lamborghini",
         "tags": [
-            "car"
-        ]
-    },
-    {
-        "name": "audi",
-        "tags": [
-            "car"
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
@@ -375,14 +549,6 @@
             "external-link",
             "link-45deg",
             "open-in-new"
-        ]
-    },
-    {
-        "name": "openai",
-        "tags": [
-            "open-ai",
-            "artificial-intelligent",
-            "chatgpt"
         ]
     },
     {
@@ -408,6 +574,14 @@
         "name": "marvel",
         "tags": [
             "disney"
+        ]
+    },
+    {
+        "name": "mclaren",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
@@ -437,25 +611,17 @@
         ]
     },
     {
+        "name": "microsoft-bing",
+        "tags": [
+            "browser",
+            "web"
+        ]
+    },
+    {
         "name": "mobile-legends",
         "tags": [
-            "game",
-            "bang-bang"
-        ]
-    },
-    {
-        "name": "threads",
-        "tags": [
-            "facebook",
-            "social",
-            "meta"
-        ]
-    },
-    {
-        "name": "laliga",
-        "tags": [
-            "soccer",
-            "football"
+            "bang-bang",
+            "game"
         ]
     },
     {
@@ -472,9 +638,41 @@
         ]
     },
     {
+        "name": "nissan",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "nokia",
+        "tags": [
+            "smartphone",
+            "tablet",
+            "technology"
+        ]
+    },
+    {
         "name": "oneplus",
         "tags": [
             "one plus"
+        ]
+    },
+    {
+        "name": "openai",
+        "tags": [
+            "artificial-intelligent",
+            "chatgpt",
+            "open-ai"
+        ]
+    },
+    {
+        "name": "openai",
+        "tags": [
+            "artificial-intelligent",
+            "chatgpt",
+            "open-ai"
         ]
     },
     {
@@ -494,25 +692,33 @@
         ]
     },
     {
-        "name": "adobe-after-affects",
+        "name": "playstation",
         "tags": [
-            "design",
-            "video",
-            "software"
+            "console",
+            "ps",
+            "sony"
         ]
     },
     {
-        "name": "twitter",
+        "name": "pos-indonesia",
         "tags": [
-            "social",
-            "x"
+            "courier",
+            "delivery",
+            "expedition",
+            "shipping",
+            "transport"
         ]
     },
     {
-        "name": "twitter-x",
+        "name": "pubg",
         "tags": [
-            "social",
-            "x"
+            "game"
+        ]
+    },
+    {
+        "name": "pwa",
+        "tags": [
+            "progressive-web-app"
         ]
     },
     {
@@ -531,26 +737,19 @@
         ]
     },
     {
-        "name": "openai",
-        "tags": [
-            "open-ai",
-            "artificial-intelligent",
-            "chatgpt"
-        ]
-    },
-    {
-        "name": "microsoft-bing",
-        "tags": [
-            "browser",
-            "web"
-        ]
-    },
-    {
         "name": "reload",
         "tags": [
             "arrow-clockwise",
             "repeat",
             "restart"
+        ]
+    },
+    {
+        "name": "scuderia-ferrari",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
         ]
     },
     {
@@ -568,6 +767,16 @@
         ]
     },
     {
+        "name": "shopee-xpress",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "shipping",
+            "transport"
+        ]
+    },
+    {
         "name": "sort-ascending",
         "tags": [
             "sort-down"
@@ -580,9 +789,31 @@
         ]
     },
     {
+        "name": "telkomsel",
+        "tags": [
+            "communication",
+            "telemunication"
+        ]
+    },
+    {
+        "name": "telkomsel-orbit",
+        "tags": [
+            "communication",
+            "telemunication"
+        ]
+    },
+    {
         "name": "thinkpad",
         "tags": [
             "lenovo"
+        ]
+    },
+    {
+        "name": "threads",
+        "tags": [
+            "facebook",
+            "meta",
+            "social"
         ]
     },
     {
@@ -599,9 +830,40 @@
         ]
     },
     {
+        "name": "twitter",
+        "tags": [
+            "social",
+            "x"
+        ]
+    },
+    {
+        "name": "twitter-x",
+        "tags": [
+            "social",
+            "x"
+        ]
+    },
+    {
         "name": "ubuntu",
         "tags": [
             "linux"
+        ]
+    },
+    {
+        "name": "united-parcel-service",
+        "tags": [
+            "courier",
+            "delivery",
+            "expedition",
+            "shipping",
+            "transport",
+            "ups"
+        ]
+    },
+    {
+        "name": "valorant",
+        "tags": [
+            "game"
         ]
     },
     {
@@ -610,6 +872,25 @@
             "decagram",
             "patch-check",
             "seal-check"
+        ]
+    },
+    {
+        "name": "verizon",
+        "tags": [
+            "communication",
+            "telemunication"
+        ]
+    },
+    {
+        "name": "who",
+        "tags": [
+            "world-health-organization"
+        ]
+    },
+    {
+        "name": "wings-air",
+        "tags": [
+            "airlines"
         ]
     },
     {
@@ -622,21 +903,6 @@
         "name": "youtube",
         "tags": [
             "google"
-        ]
-    },
-    {
-        "name": "google-bard",
-        "tags": [
-            "ai",
-            "artificial-intelligence"
-        ]
-    },
-    {
-        "name": "playstation",
-        "tags": [
-            "ps",
-            "sony",
-            "console"
         ]
     },
     {
@@ -679,18 +945,6 @@
         "name": "zip",
         "tags": [
             "file-zip"
-        ]
-    },
-    {
-        "name": "pubg",
-        "tags": [
-            "game"
-        ]
-    },
-    {
-        "name": "batman",
-        "tags": [
-            "dc"
         ]
     }
 ]
