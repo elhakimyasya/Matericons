@@ -251,6 +251,29 @@
         ]
     },
     {
+        "name": "intel",
+        "tags": [
+            "processor"
+        ]
+    },
+    {
+        "name": "infinity",
+        "tags": [
+            "automotive",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "opel",
+        "tags": [
+            "automotive",
+            "car",
+            "general-motors-company",
+            "vehicle"
+        ]
+    },
+    {
         "name": "clear",
         "tags": [
             "backspace",
@@ -664,14 +687,16 @@
         "tags": [
             "artificial-intelligent",
             "chatgpt",
+            "chat-gpt",
             "open-ai"
         ]
     },
     {
-        "name": "openai",
+        "name": "chat-gpt",
         "tags": [
             "artificial-intelligent",
             "chatgpt",
+            "chat-gpt",
             "open-ai"
         ]
     },
@@ -806,6 +831,33 @@
         "name": "thinkpad",
         "tags": [
             "lenovo"
+        ]
+    },
+    {
+        "name": "yandex",
+        "tags": [
+            "technology",
+            "search"
+        ]
+    },
+    {
+        "name": "yamaha",
+        "tags": [
+            "motorcycle",
+            "racing",
+            "rev-your-heart"
+        ]
+    },
+    {
+        "name": "yokohama",
+        "tags": [
+            "tires"
+        ]
+    },
+    {
+        "name": "bridgestone",
+        "tags": [
+            "tires"
         ]
     },
     {
