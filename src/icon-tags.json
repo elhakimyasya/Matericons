@@ -3,6 +3,14 @@
         "name": "acer",
         "tags": [
             "brand",
+            "smartphone",
+            "laptop"
+        ]
+    },
+    {
+        "name": "nothing",
+        "tags": [
+            "brand",
             "smartphone"
         ]
     },
@@ -671,6 +679,7 @@
     {
         "name": "nokia",
         "tags": [
+            "brand",
             "smartphone",
             "tablet",
             "technology"
@@ -679,7 +688,31 @@
     {
         "name": "oneplus",
         "tags": [
-            "one plus"
+            "brand",
+            "one plus",
+            "smartphone",
+            "tablet"
+        ]
+    },
+    {
+        "name": "lava",
+        "tags": [
+            "brand",
+            "smartphone"
+        ]
+    },
+    {
+        "name": "itel",
+        "tags": [
+            "brand",
+            "smartphone"
+        ]
+    },
+    {
+        "name": "sony",
+        "tags": [
+            "brand",
+            "smartphone"
         ]
     },
     {
