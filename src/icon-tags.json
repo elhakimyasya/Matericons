@@ -969,7 +969,34 @@
     {
         "name": "who",
         "tags": [
-            "world-health-organization"
+            "world-health-organization",
+            "fund",
+        ]
+    },
+    {
+        "name": "unicef",
+        "tags": [
+            "united-nations-childrens-fund",
+            "united-nations-international-childrens-emergency-fund",
+            "wide",
+            "organization",
+            "world"
+        ]
+    },
+    {
+        "name": "wwf",
+        "tags": [
+            "world-wide-fund-for-nature",
+            "wide",
+            "organization",
+            "fund",
+            "world"
+        ]
+    },
+    {
+        "name": "wd",
+        "tags": [
+            "western-digital"
         ]
     },
     {
